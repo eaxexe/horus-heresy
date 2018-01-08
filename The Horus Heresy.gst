@@ -665,7 +665,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="c736-2564-4061-7049" name="Walker" book="HH: Rulebook" page="86" hidden="false">
+    <categoryEntry id="9403-b927-1ea0-dd3d" name="Walker" book="HH: Rulebook" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -14794,19 +14794,19 @@ Command Benefits:
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="3e9f-b912-bc41-b28e" hidden="false" targetId="1f7d-9765-ed8e-f6e5" type="profile">
+            <infoLink id="3e9f-b912-bc41-b28e" name="Quad Gun" hidden="false" targetId="1f7d-9765-ed8e-f6e5" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="0a02-2306-4221-00f1" hidden="false" targetId="705c-91aa-6591-507b" type="profile">
+            <infoLink id="0a02-2306-4221-00f1" name="Gun Emplacement (Details)" hidden="false" targetId="705c-91aa-6591-507b" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="5712-0be9-2ca9-0aea" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile">
+            <infoLink id="5712-0be9-2ca9-0aea" name="Gun Emplacement" hidden="false" targetId="1da7-2e0b-0114-762c" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14843,7 +14843,7 @@ Command Benefits:
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="cc9c-2e71-b0cf-2d0d" hidden="false" targetId="d4b6-7a3a-aee5-d293" type="profile">
+            <infoLink id="cc9c-2e71-b0cf-2d0d" name="Ammo Store" hidden="false" targetId="d4b6-7a3a-aee5-d293" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14987,7 +14987,7 @@ Command Benefits:
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e8d1-a4f4-3a6c-1878" type="max"/>
+        <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8d1-a4f4-3a6c-1878" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -15018,7 +15018,7 @@ Command Benefits:
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="a149-5d28-9796-309d" hidden="false" targetId="68d8-f686-c260-76db" type="profile">
+            <infoLink id="a149-5d28-9796-309d" name="Barricades" hidden="false" targetId="68d8-f686-c260-76db" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -15041,7 +15041,7 @@ Command Benefits:
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="f133-1126-a49c-52c0" hidden="false" targetId="4a45-65e5-2d8c-8792" type="profile">
+            <infoLink id="f133-1126-a49c-52c0" name="Tank Traps" hidden="false" targetId="4a45-65e5-2d8c-8792" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
