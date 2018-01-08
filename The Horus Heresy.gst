@@ -699,6 +699,26 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="ba64-08ad-b253-4c5c" name="Daemon" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5140-9f9d-2bc2-95c6" name="Daemon" hidden="false" targetId="3eda-669d-bd54-e3c0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d2f3-5b81-d15c-0fe7" name="Fear" hidden="false" targetId="52ff-4074-570b-4ea1" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="61f7-09c7-326c-8c49" name="New ForceEntry" hidden="true">
@@ -15066,7 +15086,7 @@ Command Benefits:
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="5342-bf92-d6c0-ebb9" name="Hit and Run" book="BRB 7th" hidden="false">
+    <rule id="5342-bf92-d6c0-ebb9" name="Hit and Run" book="HH: Rulebook" page="165" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15079,7 +15099,7 @@ If the test is passed, choose a direction – then roll 3D6. As long as the dist
 
 A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
     </rule>
-    <rule id="d219-2314-4834-c054" name="Deep Strike" book="BRB 7th" hidden="false">
+    <rule id="d219-2314-4834-c054" name="Deep Strike" book="HH: Rulebook" page="162" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15105,23 +15125,21 @@ Deep Striking onto a crowded battlefield can be dangerous, as one may miss the i
 
 Deep Strike Mishap Table
 D6 - Effect
-1 - Terrible Accident! Teleporting units are lost in the Warp, deep striking jump units are shot down, or some other suitably dramatic event occurs.
-The entire unit is destroyed!
+1 - Terrible Accident! The entire unit is destroyed!
 
 2-3 - Misplaced. The coordinates were inaccurate or the enemy has jammed your instruments.
 Your opponent may deploy the unit anywhere on the table (excluding impassable terrain, but including difficult terrain, which of course counts as dangerous for Deep Striking units), in a valid Deep Strike formation, but without rolling for scatter. Units embarked on a misplaced Transport can disembark during their Movement phase as normal.
 
-4-6 - Delayed. Because of mechanical failure or enemy action, the reinforcements are delayed.
-The unit is placed in Ongoing Reserves.</description>
+4-6 - Delayed. The unit is placed in Ongoing Reserves.</description>
     </rule>
-    <rule id="988c-d4d0-9418-1165" name="Rage" book="BRB 7th" hidden="false">
+    <rule id="988c-d4d0-9418-1165" name="Rage" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</description>
     </rule>
-    <rule id="e6e1-afb0-377d-27a8" name="Skilled Rider" book="BRB 7th" hidden="false">
+    <rule id="e6e1-afb0-377d-27a8" name="Skilled Rider" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15142,14 +15160,14 @@ The unit is placed in Ongoing Reserves.</description>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule re-rolls failed armour penetration rolls against vehicles (both with shooting and in close combat) and can choose to re-roll glancing hits, in an attempt to instead get a penetrating hit – but the second result must be kept.</description>
     </rule>
-    <rule id="a225-e39b-3699-c8f8" name="Night Vision" book="BRB 7th" hidden="false">
+    <rule id="a225-e39b-3699-c8f8" name="Night Vision" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
     </rule>
-    <rule id="9bdd-5ec7-8dd6-63c0" name="Feel No Pain" book="BRB 7th" hidden="false">
+    <rule id="9bdd-5ec7-8dd6-63c0" name="Feel No Pain" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15159,7 +15177,7 @@ Feel No Pain saves may not be taken against Destroyer attacks or against unsaved
 Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
     </rule>
-    <rule id="5862-0794-3d86-5788" name="Feel No Pain (4+)" book="BRB 7th" hidden="false">
+    <rule id="5862-0794-3d86-5788" name="Feel No Pain (4+)" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15169,7 +15187,7 @@ Feel No Pain saves may not be taken against Destroyer attacks or against unsaved
 Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
     </rule>
-    <rule id="85da-2f19-3756-44de" name="Feel No Pain (6+)" book="BRB 7th" hidden="false">
+    <rule id="85da-2f19-3756-44de" name="Feel No Pain (6+)" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15179,7 +15197,7 @@ Feel No Pain saves may not be taken against Destroyer attacks or against unsaved
 Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
     </rule>
-    <rule id="56df-3f23-0abe-e04b" name="Feel No Pain (3+)" book="BRB 7th" hidden="false">
+    <rule id="56df-3f23-0abe-e04b" name="Feel No Pain (3+)" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15189,7 +15207,7 @@ Feel No Pain saves may not be taken against Destroyer attacks or against unsaved
 Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
     </rule>
-    <rule id="34c7-8b61-a5b8-a301" name="Infiltrate" book="BRB 7th" hidden="false">
+    <rule id="34c7-8b61-a5b8-a301" name="Infiltrate" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15204,14 +15222,14 @@ A unit that deploys using these rules cannot charge in their first turn. Having 
 
 If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
     </rule>
-    <rule id="3aa7-9a8f-1e0d-921d" name="Furious Charge" book="BRB 7th" hidden="false">
+    <rule id="3aa7-9a8f-1e0d-921d" name="Furious Charge" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from Furious Charge.</description>
     </rule>
-    <rule id="de18-25a0-504b-74be" name="Outflank" book="BRB 7th" hidden="false">
+    <rule id="de18-25a0-504b-74be" name="Outflank" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15233,7 +15251,7 @@ When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the con
       <modifiers/>
       <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
     </rule>
-    <rule id="3ad4-1c37-d60b-1a4e" name="Independent Character" book="BRB 7th" hidden="false">
+    <rule id="3ad4-1c37-d60b-1a4e" name="Independent Character" book="HH: Rulebook" page="166" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15242,19 +15260,19 @@ When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the con
 
 Full details in BRB. Rule too long to copy verbatim.</description>
     </rule>
-    <rule id="52ff-4074-570b-4ea1" name="Fear" book="BRB 7th" hidden="false">
+    <rule id="52ff-4074-570b-4ea1" name="Fear" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
     </rule>
-    <rule id="7c6c-4e25-e4d4-9728" name="Hatred" book="BRB 7th" hidden="false">
+    <rule id="7c6c-4e25-e4d4-9728" name="Hatred" book="HH: Rulebook" page="165" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Orks) means any model with the Ork Faction, whilst Hatred (Big Meks) means only Big Meks. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</description>
+      <description>This rule is often presented as Hatred (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then the unit has Hatred against everyone. This can refer to a Faction, or a specific unit. For example, Hatred (Mechanicum) means any model with the Mechanicum Faction, whilst Hatred (Thallax) means only Thallax. A model striking a hated foe in close combat re-rolls all failed To Hit rolls during the first round of each close combat.</description>
     </rule>
     <rule id="6ce7-5e83-a2dd-571e" name="Blessed Autosimulacra" book="HH:MTAL" page="113" hidden="false">
       <profiles/>
@@ -15271,15 +15289,18 @@ Full details in BRB. Rule too long to copy verbatim.</description>
       <description>If a mission has the Night Fighting special rule, either player can declare that they wish to fight the battle at night. If either player does so, roll a D6 before deployment: on a roll of 4+, the Night Fighting special rule is in effect during game turn 1.
 While the Night Fighting mission special rule is in effect, all units have the Stealth special rule.</description>
     </rule>
-    <rule id="6f66-b417-6004-0916" name="Hammer of Wrath" book="BRB 7th" hidden="false">
+    <rule id="6f66-b417-6004-0916" name="Hammer of Wrath" book="HH: Rulebook" page="165" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>If a model with this special rule ends its charge move in base or hull contact with an enemy model, it makes one additional Attack that hits automatically and is resolved at the model’s unmodified Strength with AP-. This Attack does not benefit from any of the model’s special rules (such as Furious Charge, Rending etc.). This Attack is resolved during the Fight sub-phase at the Initiative 10 step, but does not grant the model an additional Pile In move.
+
+If a model with this special rule charges a Walker, the hit is resolved against the Front armour facing unless the Walker is immobilised, in which case it is resolved against the Armour Value of the facing the charging model is touching.
+
 If a model with this special rule charges a building or vehicle, the hit is resolved against the Armour Value of the facing the charging model is touching. If a model with this special rule charges a building or vehicle that is a Transport or a Chariot, the hit is resolved against the building or vehicle, not the occupants or the rider.</description>
     </rule>
-    <rule id="0900-71d5-1937-aa96" name="Counter-attack" book="BRB 7th" hidden="false">
+    <rule id="0900-71d5-1937-aa96" name="Counter-attack" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15287,56 +15308,56 @@ If a model with this special rule charges a building or vehicle, the hit is reso
       <description>If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
 If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</description>
     </rule>
-    <rule id="6d06-5ea0-9a17-ca97" name="Move Through Cover" book="BRB 7th" hidden="false">
+    <rule id="6d06-5ea0-9a17-ca97" name="Move Through Cover" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
     </rule>
-    <rule id="69e5-fc02-1f9d-63c2" name="Fleet" book="BRB 7th" hidden="false">
+    <rule id="69e5-fc02-1f9d-63c2" name="Fleet" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
     </rule>
-    <rule id="4dd2-fcb0-de6a-5b70" name="Preferred Enemy" book="BRB 7th" hidden="false">
+    <rule id="4dd2-fcb0-de6a-5b70" name="Preferred Enemy" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>This rule is often presented as Preferred Enemy (X) where X identifies a specific type of foe. If the special rule does not specify a type of foe, then everyone is a Preferred Enemy of the unit. A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies both to shooting and close combat attacks.</description>
     </rule>
-    <rule id="fbf1-6913-ff9f-5a4f" name="Instant Death" book="BRB 7th" hidden="false">
+    <rule id="fbf1-6913-ff9f-5a4f" name="Instant Death" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If a model suffers an unsaved Wound from an attack with this special rule, it is reduced to 0 Wounds and is removed as a casualty.</description>
+      <description>Cover saves cannot be taken against wounds, glancing hits or penetrating hits caused by weapons with the Ignores Cover special rule.</description>
     </rule>
-    <rule id="f899-8f9d-fc7e-d855" name="Master-crafted" book="BRB 7th" hidden="false">
+    <rule id="f899-8f9d-fc7e-d855" name="Master-crafted" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Hit per turn with that weapon.</description>
     </rule>
-    <rule id="0ba8-83bc-74c1-43c2" name="Rampage" book="BRB 7th" hidden="false">
+    <rule id="0ba8-83bc-74c1-43c2" name="Rampage" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</description>
     </rule>
-    <rule id="9d85-46f7-f5e6-a5f7" name="Concussive" book="BRB 7th" hidden="false">
+    <rule id="9d85-46f7-f5e6-a5f7" name="Concussive" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
     </rule>
-    <rule id="89da-0cb5-bee4-8ec2" name="Shred" book="BRB 7th" hidden="false">
+    <rule id="89da-0cb5-bee4-8ec2" name="Shred" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15352,7 +15373,7 @@ If, when charged, the unit was already locked in combat, the Counter-attack spec
 - Never counts as scoring regardless of mission type
 - In the case of a failed Cybertheurgy attempt, always apply Malifica result instead of rolling</description>
     </rule>
-    <rule id="72d9-7041-9d30-d150" name="It Will Not Die" book="BRB 7th" hidden="false">
+    <rule id="72d9-7041-9d30-d150" name="It Will Not Die" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15380,14 +15401,14 @@ If, when charged, the unit was already locked in combat, the Counter-attack spec
       <modifiers/>
       <description>If the Titan suffers a Titanic Explosion result on the Catastrophic Damage table, its reactor goes nuclear!  This is the same as a Titanic Explosion except that all hits are resolved as Destroyer hits.</description>
     </rule>
-    <rule id="4284-18a1-9844-a0bd" name="Smash" book="BRB 7th" hidden="false">
+    <rule id="4284-18a1-9844-a0bd" name="Smash" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>All of the close combat attacks, except Hammer of Wrath attacks, of a model with this special rule are resolved at AP2 (unless it’s attacking with an AP1 weapon). Additionally, when it makes its close combat attacks, it can choose instead to make a single Smash Attack. If it does so, roll To Hit as normal, but resolve the Attack at double the model’s Strength (to a maximum of 10). Furthermore, a model making a Smash Attack can re-roll its armour penetration rolls, but must abide by the second result.</description>
     </rule>
-    <rule id="3c7d-a1fa-c68b-caad" name="Relentless" book="BRB 7th" hidden="false">
+    <rule id="3c7d-a1fa-c68b-caad" name="Relentless" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15417,7 +15438,7 @@ In addition, any attacks or special abilities that permanently lower the Armour 
       <modifiers/>
       <description>When attacking any target with an armour value, rolls of 1 on the Destroyer Damage table may be re-rolled.</description>
     </rule>
-    <rule id="f624-f475-e5ec-0dfa" name="Pinning" book="BRB 7th" hidden="false">
+    <rule id="f624-f475-e5ec-0dfa" name="Pinning" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15427,7 +15448,7 @@ If the unit fails the test, it is Pinned and must immediately Go to Ground. As t
 As long as the test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them. If a unit has already Gone to Ground, no further Pinning tests are taken.
 If the special rules of a unit specify that the unit can never be Pinned, the unit automatically passes Pinning tests. Such units can still Go to Ground voluntarily if they wish.</description>
     </rule>
-    <rule id="21c0-62ff-3ed2-17a7" name="Melta" book="BRB 7th" hidden="false">
+    <rule id="21c0-62ff-3ed2-17a7" name="Melta" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15467,14 +15488,14 @@ Fast vehicles that moved at Combat Speed in the preceding Movement phase can fir
       <modifiers/>
       <description>Models the have Programmed Behaviour, Fearless, Cybernetic Resiliance, Fire Protocols, Machine Creature, and Adamantium Will special rules.</description>
     </rule>
-    <rule id="dc70-e199-5525-e78c" name="Fearless" book="BRB 7th" hidden="false">
+    <rule id="dc70-e199-5525-e78c" name="Fearless" book="HH: Rulebook" page="165" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Going to Ground are immediately cancelled.</description>
     </rule>
-    <rule id="df87-e991-2d30-dc38" name="Adamantium Will" book="BRB 7th" hidden="false">
+    <rule id="df87-e991-2d30-dc38" name="Adamantium Will" book="HH: Rulebook" page="157" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15513,21 +15534,21 @@ Fast vehicles that moved at Combat Speed in the preceding Movement phase can fir
 - Target Priority: If enemy models are within 12&quot; and line of sight during their shooting phase, the unit must fire all its weapons against the closest enemy unit it is able to harm.  If this is not the case, they are free to select targets as normal.
 - Onslaught: If enemy units are within 12&quot; during their Assault phase, they must attempt to charge the closest enemy unit if able.  May still only charge a unit fired upon.  If consolidating, must consolidate towards the closest enemy if within 12&quot;</description>
     </rule>
-    <rule id="7dae-4d12-baba-e529" name="Blind" book="BRB 7th" hidden="false">
+    <rule id="7dae-4d12-baba-e529" name="Blind" book="HH: Rulebook" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Any unit hit by one or more models or weapons with this special rule must take an Initiative test at the end of the current phase. If the test is passed, all is well – a shouted warning has caused the warriors to avert their gaze. If the Initiative test is failed, all models in the unit are reduced to Weapon Skill and Ballistic Skill 1 until the end of their next turn. Should the attacking unit hit themselves, we assume they are prepared and they automatically pass the test. Any model that does not have an Initiative characteristic (for example, non-Walker vehicles, buildings etc.) is unaffected by this special rule.</description>
     </rule>
-    <rule id="98ed-3a29-c86b-455d" name="Lance" book="BRB 7th" hidden="false">
+    <rule id="98ed-3a29-c86b-455d" name="Lance" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Weapons with the Lance special rule count vehicle Armour Values that are higher than 12 as 12.</description>
     </rule>
-    <rule id="f4fd-d519-4769-5510" name="Gets Hot" book="BRB 7th" hidden="false">
+    <rule id="f4fd-d519-4769-5510" name="Gets Hot" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15560,14 +15581,14 @@ If the scatter dice does not roll a hit, you can choose to re-roll the dice with
 Twin-linked Template Weapons
 Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and armour penetration rolls.</description>
     </rule>
-    <rule id="7ee3-d437-bc44-3630" name="Specialist Weapon" book="BRB 7th" hidden="false">
+    <rule id="7ee3-d437-bc44-3630" name="Specialist Weapon" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule.</description>
     </rule>
-    <rule id="8269-2cd6-9236-16e7" name="Rending" book="BRB 7th" hidden="false">
+    <rule id="8269-2cd6-9236-16e7" name="Rending" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15583,7 +15604,7 @@ In either case, against vehicles, each armour penetration roll of 6 allows a fur
       <modifiers/>
       <description>When losing its final wound, roll a D6.  On the result of a 6, the model explodes, inflicting a Str 4 AP - hit on all models within D6&quot;</description>
     </rule>
-    <rule id="9b30-1da3-eb8d-ce7a" name="Scout" book="BRB 7th" hidden="false">
+    <rule id="9b30-1da3-eb8d-ce7a" name="Scout" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15599,35 +15620,35 @@ If a unit with Scouts is deployed inside a Dedicated Transport, they may Outflan
 Iinfiltrate and Scout
 If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
     </rule>
-    <rule id="4575-0a0a-caaf-e4bf" name="Fleshbane" book="BRB 7th" hidden="false">
+    <rule id="4575-0a0a-caaf-e4bf" name="Fleshbane" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.  Similarly, if a model makes a shooting attack with a weapon that has this special rule, they always Wound on a 2+.  In either case, this special rule has no effect against vehicles or buildings.</description>
     </rule>
-    <rule id="eefe-09e4-17aa-deb2" name="Rad-phage" book="HH:MT" page="116" hidden="false">
+    <rule id="eefe-09e4-17aa-deb2" name="Rad-phage" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model which loses one or more wounds to an attack with this rule and survives suffers a -1 penalty to its Toughness value for the rest of the battle.</description>
     </rule>
-    <rule id="2b06-29a6-641a-b22e" name="Crusader" book="BRB 7th" hidden="false">
+    <rule id="2b06-29a6-641a-b22e" name="Crusader" book="HH: Rulebook" page="163" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule rolls an extra dice when making Run moves, and uses the highest result rolled. In addition, a unit that contains at least one model with this special rule adds D3 to its Sweeping Advance totals (roll each time).</description>
     </rule>
-    <rule id="be7f-8146-6cb8-9a53" name="Skyfire" book="BRB 7th" hidden="false">
+    <rule id="be7f-8146-6cb8-9a53" name="Skyfire" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</description>
     </rule>
-    <rule id="acf2-681d-4188-94d7" name="Ignores Cover" book="BRB 7th" hidden="false">
+    <rule id="acf2-681d-4188-94d7" name="Ignores Cover" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15648,7 +15669,7 @@ If a unit has both the Infiltrate and Scout special rule, that unit can deploy a
       <modifiers/>
       <description>In addition to its weapon attacks, units assaulting a model or unit with a Graviton Hammer always count as making a Disordered Charge when doing so.</description>
     </rule>
-    <rule id="9c80-5c1a-3b9d-971e" name="Shrouded" book="BRB 7th" hidden="false">
+    <rule id="9c80-5c1a-3b9d-971e" name="Shrouded" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15657,7 +15678,7 @@ If a unit has both the Infiltrate and Scout special rule, that unit can deploy a
 
 Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
     </rule>
-    <rule id="3919-29f5-0c68-3ecb" name="Sniper" book="BRB 7th" hidden="false">
+    <rule id="3919-29f5-0c68-3ecb" name="Sniper" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15666,14 +15687,18 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
 
 If a weapon has the Sniper special rule, or is fired by a model with the Sniper special rule, its shooting attacks always wound on a To Wound roll of 4+, regardless of the victim’s Toughness. In addition, any To Wound roll of a 6 is resolved at AP2.
 
-Against vehicles, shooting attacks from weapons and models with the Sniper special rule count as Strength 4.</description>
+Against vehicles, shooting attacks from weapons and models with the Sniper special rule count as Strength 4.
+
+Attacks with the Blast or Template rules may never benefit from the effects of the Sniper special rule.</description>
     </rule>
-    <rule id="23a4-a37f-e8e8-c756" name="Legiones Astartes" hidden="false">
+    <rule id="23a4-a37f-e8e8-c756" name="Legiones Astartes" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.</description>
+      <description>Units with this special rule may always attempt to Regroup at their normal Leadership value, regardless of casualties.
+
+Unlisted Legions: If an army represents a Legion which does not yet have its own unique Legiones Astartes rule, the controlling player may instead add either the Stubborn or Furious Charge special rule to the standard provisions of this rule in the interim.</description>
     </rule>
     <rule id="5ecb-551d-0f68-3a79" name="Implacable Advance" book="LA:AOD" page="30" hidden="false">
       <profiles/>
@@ -15698,7 +15723,7 @@ In addition, units containing one or more models with the Zealot special rule re
       <modifiers/>
       <description>To use a witchfire power with the beam sub-type, target a point within the power’s range and trace a line (about 1mm thick) between the chosen point and the centre of the Psyker’s base – this line cannot be drawn over any unit that is locked in combat. All units under the line (friend and foe) are hit, with the exception of Zooming Flyers, Swooping Flying Monstrous Creatures and the Psyker himself. Each unit hit by the attack takes a number of hits equal to the number of models from that unit that are under the line. Only one unit that has a model under the line can attempt to Deny the Witch.</description>
     </rule>
-    <rule id="cbcf-5f25-f8ea-7cfd" name="Deflagrate" book="LA:AODAL" page="129" hidden="false">
+    <rule id="cbcf-5f25-f8ea-7cfd" name="Deflagrate" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15712,7 +15737,7 @@ In addition, units containing one or more models with the Zealot special rule re
       <modifiers/>
       <description>A model attacking with this weapon Piles In and fights at Initiative step 1, unless it is a Monstrous Creature or a Walker.</description>
     </rule>
-    <rule id="e182-50cd-0867-9a8d" name="Armourbane" book="BRB 7th" hidden="false">
+    <rule id="e182-50cd-0867-9a8d" name="Armourbane" book="HH: Rulebok" page="157" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15729,21 +15754,21 @@ If a model makes a shooting attack with a weapon that has this special rule, it 
 
 Assualt: Models equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.</description>
     </rule>
-    <rule id="38d5-b6eb-bda8-2497" name="Bulky" book="BRB 7th" hidden="false">
+    <rule id="38d5-b6eb-bda8-2497" name="Bulky" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
     </rule>
-    <rule id="abc9-8566-bb61-4b7c" name="Very Bulky" book="BRB 7th" hidden="false">
+    <rule id="abc9-8566-bb61-4b7c" name="Very Bulky" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Very Bulky models count as three models for the purposes of Transport Capacity.</description>
     </rule>
-    <rule id="2834-307f-1830-df9a" name="Extremely Bulky" book="BRB 7th" hidden="false">
+    <rule id="2834-307f-1830-df9a" name="Extremely Bulky" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15774,14 +15799,14 @@ Jump units always use their jump packs when Falling Back, and their Fall Back mo
 SPECIAL RULES
 Jump units have the Bulky and Deep Strike special rules.</description>
     </rule>
-    <rule id="2d57-8425-0ec0-a9cf" name="Graviton Pulse" book="LA:AODAL" page="125" hidden="false">
+    <rule id="2d57-8425-0ec0-a9cf" name="Graviton Pulse" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Instead of rolling To Wound normally with this weapon, any model caught in its blast must instead roll equal to or under their Strength on a D6 or suffer a wound (a roll of ‘6’ always counts as a failure). After the graviton pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next turn.</description>
+      <description>Instead of rolling To Wound normally with this weapon, any model caught in its blast must instead roll equal to or under their Strength on a D6 or suffer a wound (a roll of ‘6’ always counts as a failure). After the graviton pulse weapon has been fired, leave the Blast marker in place. This area now counts as both difficult terrain and dangerous terrain for the next turn thanks to the gravity flux. </description>
     </rule>
-    <rule id="6970-1bf3-b33e-5dce" name="Haywire" book="BRB 7th" hidden="false">
+    <rule id="6970-1bf3-b33e-5dce" name="Haywire" book="HH: Rulebook" page="165" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15793,7 +15818,7 @@ D6 - Result
 2-5 - Glancing hit
 6 - Penetrating hit</description>
     </rule>
-    <rule id="c2af-0e00-294d-8d82" name="Cumbersome" book="LA:AODAL" page="130" hidden="false">
+    <rule id="c2af-0e00-294d-8d82" name="Cumbersome" book="HH: Rulebook" page="163" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15814,12 +15839,13 @@ D6 - Result
       <modifiers/>
       <description>Models equipped with plasma grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative step in the ensuing combat.</description>
     </rule>
-    <rule id="0ac1-dfc1-295b-50a6" name="Power of the Machine Spirit" book="BRB 7th" hidden="false">
+    <rule id="0ac1-dfc1-295b-50a6" name="Power of the Machine Spirit" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.</description>
+      <description>In a turn in which the vehicle neither moves Flat Out nor uses smoke launchers, the vehicle can fire one more weapon at its full Ballistic Skill than normally permitted. In addition, this weapon can be fired at a different target unit to any other weapons, subject to the normal rules for shooting.
+Note that this special rule is granted by certain items of wargear with the same or similar name and may sometimes appear in an Army List entry’s Wargear section.</description>
     </rule>
     <rule id="4af6-46f8-9c3e-cb33" name="Heliothermic Detonation" book="Forgeworld.co.uk" hidden="false">
       <profiles/>
@@ -15835,14 +15861,14 @@ D6 - Result
       <modifiers/>
       <description>Targets may not take Jink saves against damage from this weapon.</description>
     </rule>
-    <rule id="45cf-653a-4ff6-f22d" name="Assault Vehicle" book="BRB 7th" hidden="false">
+    <rule id="45cf-653a-4ff6-f22d" name="Assault Vehicle" book="HH: Rulebook" page="157" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Passengers disembarking from Access Points on a vehicle with this special rule can charge on the turn they do so (even in a turn that the vehicle was destroyed, or in the following turn) unless the vehicle arrived from Reserve that turn.</description>
     </rule>
-    <rule id="ca3e-e94e-58f6-75d9" name="Interceptor" book="BRB 7th" page="" hidden="false">
+    <rule id="ca3e-e94e-58f6-75d9" name="Interceptor" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15863,7 +15889,7 @@ D6 - Result
       <modifiers/>
       <description>A flare shield operates against shooting attacks that strike the vehicle&apos;s front arc.  It reduces the strength of attacks by weapons with the Templae or Blast type by -2, and other shooting attacks by -1.  A flare shield has no effect on attacks from close combat or with the Destroyer rule.</description>
     </rule>
-    <rule id="a080-af1b-fb2e-4860" name="Precision Strikes" book="BRB 7th" hidden="false">
+    <rule id="a080-af1b-fb2e-4860" name="Precision Strikes" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15872,7 +15898,7 @@ D6 - Result
 
 Wounds from Precision Strikes are allocated against an engaged model (or models) of your choice in the unit you are attacking, rather than following the normal rules for Wound allocation. If a Precision Strike Wound is allocated to a character, they can still make their Look Out, Sir roll.</description>
     </rule>
-    <rule id="4771-b711-0e74-3aee" name="Precision Shots" book="BRB 7th" hidden="false">
+    <rule id="4771-b711-0e74-3aee" name="Precision Shots" book="HH: Rulebook" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15883,35 +15909,35 @@ Wounds from Precision Shots are allocated against a model (or models) of your ch
 
 Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</description>
     </rule>
-    <rule id="0122-421f-88f2-9c68" name="Psyker" book="BRB 7th" hidden="false">
+    <rule id="0122-421f-88f2-9c68" name="Psyker" book="HH: Rulebook" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this special rule is a Psyker. This rule is typically presented with a Mastery Level, shown in brackets – if no Mastery Level is shown then that model has a Mastery Level of 1.</description>
     </rule>
-    <rule id="cf90-39d9-c923-f6bf" name="Repel the Enemy" hidden="false">
+    <rule id="cf90-39d9-c923-f6bf" name="Repel the Enemy" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models disembarking from Access Points on a building can charge on the turn they do so, even on a turn the building was destroyed.</description>
+      <description>Models disembarking from Access Points on a building can charge on the turn they do so, even on a turn the building was destroyed. Models using an escape hatch may not make use of this special rule.</description>
     </rule>
-    <rule id="9f71-25a6-08e5-f088" name="Sentry Defence System" book="BRB 7th" hidden="false">
+    <rule id="9f71-25a6-08e5-f088" name="Sentry Defence System" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A building with this special rule can use automated fire against enemy units, even if it is unoccupied. The weapons are emplaced and cannot be used as gun emplacements - another model may not fire them. In addition, enemy units can shoot at and charge a building with this special rule, even if it is unoccupied.</description>
+      <description>A building with this special rule can use automated fire against enemy units, even if it is unoccupied. In addition, enemy units can shoot at and charge a building with this special rule, even if it is unoccupied.</description>
     </rule>
-    <rule id="4608-a89f-8d54-2fe4" name="Slow and Purposeful" book="BRB 7th" hidden="false">
+    <rule id="4608-a89f-8d54-2fe4" name="Slow and Purposeful" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
     </rule>
-    <rule id="38ff-a919-70c4-aec4" name="Split Fire" book="BRB 7th" hidden="false">
+    <rule id="38ff-a919-70c4-aec4" name="Split Fire" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15940,7 +15966,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <modifiers/>
       <description>A Supersonic vehicle that moves Flat Out must move at least 18&quot; and can move up to 36&quot;.</description>
     </rule>
-    <rule id="3e0b-be9f-b7eb-8c5e" name="Eternal Warrior" book="BRB 7th" hidden="false">
+    <rule id="3e0b-be9f-b7eb-8c5e" name="Eternal Warrior" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15954,7 +15980,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <modifiers/>
       <description>The many rules presented for this unit are experimental rules, still under development, and are not the final version. Experimental rules will change over time before a final version is published.</description>
     </rule>
-    <rule id="c0a6-5a38-2ea5-e740" name="Shock Pulse" book="HH:LACAL" page="60" hidden="false">
+    <rule id="c0a6-5a38-2ea5-e740" name="Shock Pulse" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15969,7 +15995,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <description>If enemy inflicts a Penetrating hit against the Sicarian Venator, they may re-roll a result of a 1 on the Vehicle Damage table.
 Explodes results add D3&quot; to radius.</description>
     </rule>
-    <rule id="e15d-1437-cfb2-b8dd" name="Acute Senses" book="BRB" hidden="false">
+    <rule id="e15d-1437-cfb2-b8dd" name="Acute Senses" book="HH: Rulebook" page="157" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15997,7 +16023,7 @@ Explodes results add D3&quot; to radius.</description>
       <modifiers/>
       <description>Any target hit in close combat by this model must take an Initiative test at the end of the current phase. If the test is passed, all is well – they have seen through the distraction. If the Initiative test is failed, the target is reduced to Weapon Skill and Ballistic Skill 1 until the end of their next turn. Any model that does not have an Initiative characteristic (for example, non-Walker vehicles, buildings etc.) is unaffected by this special rule.</description>
     </rule>
-    <rule id="8e59-1172-280d-75e8" name="Brotherhood of Psykers/Sorcerers" book="BRB" hidden="false">
+    <rule id="8e59-1172-280d-75e8" name="Brotherhood of Psykers/Sorcerers" book="HH: Rulebook" page="161" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16008,7 +16034,7 @@ When manifesting a psychic power, this unit measures range and line of sight fro
 
 If this unit suffers Perils of the Warp, or is hit by an attack that specifically targets Psykers, the hits are Randomly Allocated amongst models with the Brotherhood of Psykers/Sorcerers special rule. If a model with this special rule gains or loses a psychic power, all other models with this special rule in their unit also gain or lose that power.</description>
     </rule>
-    <rule id="3eda-669d-bd54-e3c0" name="Daemon" book="BRB" page="" hidden="false">
+    <rule id="3eda-669d-bd54-e3c0" name="Daemon" book="HH: Rulebook" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16022,7 +16048,7 @@ If this unit suffers Perils of the Warp, or is hit by an attack that specificall
       <modifiers/>
       <description>If a target suffers an unsaved Wound from a close combat attack made by this model, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
-    <rule id="b1ee-7803-8ddb-cb4e" name="Destroyer Weapon" book="BRB" hidden="false">
+    <rule id="b1ee-7803-8ddb-cb4e" name="Destroyer Weapon" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16046,7 +16072,7 @@ D Weapon Attack Table: D6 Roll
       <modifiers/>
       <description>The range of any ranged weapons fired by this model is increased by half. For example, this model could fire a boltgun (Range 24&quot;) up to 36&quot; instead. This increased range also affects Rapid Fire and Melta distances, but has no effect on Template weapons.</description>
     </rule>
-    <rule id="2053-118c-c2b7-c8ac" name="Executioner" hidden="false">
+    <rule id="2053-118c-c2b7-c8ac" name="Executioner" book="" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16067,7 +16093,7 @@ D Weapon Attack Table: D6 Roll
       <modifiers/>
       <description>When this model makes a close combat attack, for each To Wound roll of a 6, the target automatically suffers a Wound, regardless of its Toughness. These Wounds are resolved at AP2. Against vehicles, each armour penetration roll of 6 allows a further D3 to be added to the total. These hits are resolved using their normal AP value.</description>
     </rule>
-    <rule id="f588-4e5a-a032-0aee" name="Force" book="BRB" hidden="false">
+    <rule id="f588-4e5a-a032-0aee" name="Force" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16114,7 +16140,7 @@ Fear, Fearless, Feel No Pain, Hammer of Wrath, Move Through Cover, Relentless, S
       <modifiers/>
       <description>Any model within a Defence Emplacement section re-rolls failed To-Hit rolsl when resolving Overwatch if using a weapon with the Heavy type.</description>
     </rule>
-    <rule id="d3e5-b43d-a89c-3bd8" name="Jink" book="BRB" hidden="false">
+    <rule id="d3e5-b43d-a89c-3bd8" name="Jink" book="HH: Rulebook" page="167" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16160,7 +16186,7 @@ D6 Result
       <modifiers/>
       <description>When selecting this special rule, pick a ranged weapon carried by this model. You can re-roll one failed To Hit roll per turn with that weapon.</description>
     </rule>
-    <rule id="3384-a962-78e5-d13c" name="Mighty Bulwark" book="Stronghold Assault" page="" hidden="false">
+    <rule id="3384-a962-78e5-d13c" name="Mighty Bulwark" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16174,14 +16200,14 @@ D6 Result
       <modifiers/>
       <description>The emplaced vortex missile may fire a maximum of seven vortex missiles over the course of the battle.  No more than one missile may be fired per Shooting phase.</description>
     </rule>
-    <rule id="46ca-9255-0e77-e9f5" name="Missile Lock" book="BRB" hidden="false">
+    <rule id="46ca-9255-0e77-e9f5" name="Missile Lock" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this special rule re-rolls failed To Hit rolls when shooting any weapon that has the One Use Only special rule. If a model with this special rule is shooting a weapon that has both the One Use Only and Blast special rules, that shot will instead scatter D6&quot; rather than 2D6&quot;.</description>
     </rule>
-    <rule id="93c5-dcdd-af20-413e" name="Monster Hunter" book="BRB" hidden="false">
+    <rule id="93c5-dcdd-af20-413e" name="Monster Hunter" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16202,7 +16228,7 @@ D6 Result
       <modifiers/>
       <description>A unit with this special rule controls objectives even if an enemy scoring unit is within range of the objective marker, unless the enemy unit also has this special rule.</description>
     </rule>
-    <rule id="3789-00ab-3f47-eb36" name="One Use Only/One Shot Only" book="BRB" hidden="false">
+    <rule id="3789-00ab-3f47-eb36" name="One Use Only/One Shot Only" book="HH: Rulebook" page="168" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16216,7 +16242,7 @@ D6 Result
       <modifiers/>
       <description>If an arrow is rolled on the scatter dice when firing a weapon that has this special rule, the shot always scatters the full 2D6&quot; regardless of the firing model&apos;s Ballistic Skill.  In addition, firing an Ordnance weapon that has this special rule does not prevent the firing model from declaring a charge against the target unit in the same turn.</description>
     </rule>
-    <rule id="a5ff-1cb1-bee4-d809" name="Poisoned" book="BRB" hidden="false">
+    <rule id="a5ff-1cb1-bee4-d809" name="Poisoned" book="HH: Rulebook" page="169" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16244,7 +16270,7 @@ D6 Result
       <modifiers/>
       <description>This model counts as being equipped with assault grenades (see Warhammer 40,000: The Rules ). However, cover saves cannot be taken against Wounds caused by promethium charges in the Shooting phase.</description>
     </rule>
-    <rule id="2189-13e6-c68c-ab23" name="Psychic Pilot" book="BRB" page="" hidden="false">
+    <rule id="2189-13e6-c68c-ab23" name="Psychic Pilot" book="HH: Rulebook" page="170" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16293,7 +16319,7 @@ D6 Result
       <modifiers/>
       <description>After firing a quake shell, draw a straight line between the Aquila macro-cannon and the central hole of the apocalyptic mega-blast template.  Roll a dice for each Flyer, Flying Monstrous Creature, or Flying Gargantuan Creature model crossed by this line.  On a roll of 1, a Flyer will Crash and Burn, while a Clying Monstrous Creature or Flying Gargantuan Creature will take D3 Wounds with no saving throws allowed.</description>
     </rule>
-    <rule id="acb1-64c4-ef54-3a55" name="Soul Blaze" book="BRB" hidden="false">
+    <rule id="acb1-64c4-ef54-3a55" name="Soul Blaze" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16490,7 +16516,7 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
       <modifiers/>
       <description>Enemy units within 12&quot; reduce their cover saves by -1 when fired at by units in the same detachment as the Cyber-occularis</description>
     </rule>
-    <rule id="9edbc777-7d2b-011b-7488-335b14870be5" name="Battlesmith" book="HH:LACAL" page="81" hidden="false">
+    <rule id="9edbc777-7d2b-011b-7488-335b14870be5" name="Battlesmith" book="HH: Rulebook" page="157" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16501,7 +16527,9 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
 - Repair a Weapon Destroyed result
 - Repair an Immobilised result
 
-If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.</description>
+If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.
+
+Models with the Battlesmith special rule that also possess a Cortex Controller may instead of the above restore a single lost wound to a Battle-automata as a use of this ability.</description>
     </rule>
     <rule id="53c751ef-105f-b2a8-7a17-7812d605b9f2" name="Flank Speed" book="HH3: Extermination" page="231" hidden="false">
       <profiles/>
@@ -16554,14 +16582,14 @@ Shooting attack against the shield facing is reduced by -1, the effect increasin
       <modifiers/>
       <description>When destroyed, the Cerastus Knight-Atrapos adds +2 to the result rolled on the Catastrophic Damage table.</description>
     </rule>
-    <rule id="841f-9119-9f9d-5058" name="Sunder" book="HH:LAICL" page="47" hidden="false">
+    <rule id="841f-9119-9f9d-5058" name="Sunder" book="HH: Rulebook" page="172" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Attacks with this rule may re-roll failed Armour Penetration rolls.</description>
     </rule>
-    <rule id="40ea-f002-47cb-4e4e" name="Shell Shock" book="HH:LACAL" page="83" hidden="false">
+    <rule id="40ea-f002-47cb-4e4e" name="Shell Shock" book="HH: Rulebook" page="171" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16575,7 +16603,7 @@ Shooting attack against the shield facing is reduced by -1, the effect increasin
       <modifiers/>
       <description>May not fill the compulsory Troops slots on a Force Organization chart.</description>
     </rule>
-    <rule id="dbf6-2f12-bb4a-517c" name="Feel No Pain (5+)" book="BRB 7th" hidden="false">
+    <rule id="dbf6-2f12-bb4a-517c" name="Feel No Pain (5+)" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16584,6 +16612,110 @@ Shooting attack against the shield facing is reduced by -1, the effect increasin
 Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
 Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
 If a unit has the Feel No Pain special rule with a number in brackets afterwards – Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
+    </rule>
+    <rule id="1e10-0a6a-b298-ce12" name="Agile (Flyers only)" book="HH: Rulebok" page="157" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit with this special rule increases any cover saves granted by the Jink special rule by +1.</description>
+    </rule>
+    <rule id="72d7-f2cd-8dea-7847" name="Automated Artillery" book="HH: Rulebook" page="157" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Automated Artillery does not require crew in order to function. It is not removed from play due to a lack of crew and each gun must be destroyed normally before it is removed.
+
+Automated Artillery cannot move and cannot charge. If assaulted, they do not Pile In and cannot be locked in combat. Theirattackers will hit automatically, but must roll To Wound normally. If a unit of Automated Artillery loses an assault, nothing happens. Thereare no Sweeping Advances, no Pile Ins and no Consolidation moves. TheAutomated Artillery remains in place and may fire normally in future turns. If the Automated Artillery wins an assault, the enemy must take a Morale check as normal, although the Artillery cannot Consolidate or make a
+Sweeping Advance.</description>
+    </rule>
+    <rule id="adc9-7695-5ce8-8e67" name="Chosen Warriors" book="HH: Rulebook" page="161" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this special rule may issue and accept challenges as if it had the Character type. Note that this does not allow a model with this special rule to use any other special rules associated with the Character type.</description>
+    </rule>
+    <rule id="19c5-c51f-3cf7-e24c" name="Co-axial Weapon" book="HH: Rulebook" page="161" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A weapon with the Co-axial special rule will specify another weapon mounted on the same vehicle. When a target is declared for this weapon, the Co-axial weapon must fire at it first if it is within range. If the Co-axial weapon hits the target, then the other weapon may re-roll its To Hit roll if it misses.</description>
+    </rule>
+    <rule id="8815-6acf-f5ea-0b32" name="Crawling Fire" book="HH: Rulebook" page="161" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After the Blast marker for a weapon with this special rule is placed, the firer may move the marker up to 2&quot; in any direction so long as this would cover more models than previously.</description>
+    </rule>
+    <rule id="59a3-b18d-ea35-6f82" name="Deadly Cargo" book="HH: Rulebook" page="164" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a vehicle with this special rule takes Hull point damage but is not destroyed, roll a D6. On a 6, the vehicle suffers an Explodes! result on the Vehicle Damage chart.</description>
+    </rule>
+    <rule id="40a6-7304-f027-0f8a" name="Duellist’s Edge" book="HH: Rulebook" page="164" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When fighting in a challenge, the user of this weapon gains a +1 bonus to their Initiative value.</description>
+    </rule>
+    <rule id="759b-434f-9bae-6029" name="Exoshock" book="HH: Rulebook" page="164" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this weapon successfully scores a penetrating hit on a target, roll a D6. On a 4+, a second automatic penetrating hit is inflicted on the same target against which cover saves may not be taken.</description>
+    </rule>
+    <rule id="bcf2-1bcf-59eb-eac8" name="Heat Seeker" book="HH: Rulebook" page="165" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Jink saves may not be taken against attacks with this special rule.</description>
+    </rule>
+    <rule id="85f8-7e13-d1d6-02b6" name="Lingering Death" book="HH: Rulebook" page="168" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When a Blast weapon with this rule is used, after the attack is resolved leave the Blast marker in play for the rest of the game and mark it with a counter of some kind. Thisarea is now treated as dangerous terrain for all models with a Toughness value and open-topped vehicles.</description>
+    </rule>
+    <rule id="f214-4953-20c6-aa97" name="Murderous Strike" book="HH: Rulebook" page="168" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Attacks with this special rule cause Instant Death on a ToWound roll of 6. Roll any viable saves against this Instant Death-causing wound separately to other wounds the attack inflicts.</description>
+    </rule>
+    <rule id="3eb7-93bc-98b4-4631" name="Primarch" book="HH: Rulebook" page="170" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Any model with the Primarch special rule is automatically the army’s Warlord and does not roll randomly for Warlord Traits (these will have been included in their own unique abilities). Unless a mission’s rules specifically state otherwise, no army may ever include more than a single Primarch.</description>
+    </rule>
+    <rule id="7867-051c-2163-d69a" name="Squadron Command Tank" book="HH: Rulebook" page="172" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Unless the Squadron Command Tank has been destroyed, all Tanks in the squadron gain the following benefits while they remain in coherency:
+
+Ignore the effects of Crew Shaken results on a roll of a 4+.
+When the entire squadron fires at a single target within 24&quot;, the squadron gains the Tank Hunters and Monster Hunter special rules.</description>
+    </rule>
+    <rule id="45e0-a260-9422-435f" name="Super-heavy Command Tank" book="HH: Rulebook" page="172" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a vehicle has been upgraded to a Super-heavy Command Tank, all friendly Infantry units within 24&quot; may re-roll failed Morale Checks.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
