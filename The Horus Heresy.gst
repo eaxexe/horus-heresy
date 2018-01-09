@@ -15146,14 +15146,14 @@ Your opponent may deploy the unit anywhere on the table (excluding impassable te
       <modifiers/>
       <description>A unit that contains at least one model with this special rule automatically passes Dangerous Terrain tests, and receives +1 to its Jink cover saves (other cover saves are unaffected).</description>
     </rule>
-    <rule id="fe2f-3220-3fef-b177" name="Wrecker" book="HH:LACAL" page="87" hidden="false">
+    <rule id="fe2f-3220-3fef-b177" name="Wrecker" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Attacks with this special rule may re-roll failed armour penetration rolls against fortifications and immobile structures and add +1 to any result rolled on the Building Damage chart.  If this attack damages a bulkhead or wall section of terrain and destroys it, remove that section of terrain from play if possible.</description>
     </rule>
-    <rule id="5d88-bcf6-e410-6e01" name="Tank Hunters" book="BRB 7th" hidden="false">
+    <rule id="5d88-bcf6-e410-6e01" name="Tank Hunters" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15244,7 +15244,7 @@ When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the con
       <modifiers/>
       <description>Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead.</description>
     </rule>
-    <rule id="7be5-30af-1a02-0a89" name="Stubborn" book="BRB 7th" hidden="false">
+    <rule id="7be5-30af-1a02-0a89" name="Stubborn" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15415,7 +15415,7 @@ If, when charged, the unit was already locked in combat, the Counter-attack spec
       <modifiers/>
       <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
     </rule>
-    <rule id="dd83-7fb9-6f58-0c96" name="Strikedown" book="BRB 7th" hidden="false">
+    <rule id="dd83-7fb9-6f58-0c96" name="Strikedown" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15568,7 +15568,7 @@ If a model has the ability to re-roll its rolls To Hit (including because of BS6
       <modifiers/>
       <description>Adds +1 to the model&apos;s attacks and count as being Twin-linked.</description>
     </rule>
-    <rule id="10a8-8d89-0bec-3e21" name="Twin-linked" book="BRB 7th" hidden="false">
+    <rule id="10a8-8d89-0bec-3e21" name="Twin-linked" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15707,7 +15707,7 @@ Unlisted Legions: If an army represents a Legion which does not yet have its own
       <modifiers/>
       <description>These units are used to assail the most heavily defended objectives and secure them for the advance of allied forces. They are always counted as scoring units in any mission where Troops are also counted as scoring units</description>
     </rule>
-    <rule id="e300-69f2-111a-ed55" name="Zealot" book="BRB 7th" hidden="false">
+    <rule id="e300-69f2-111a-ed55" name="Zealot" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15730,7 +15730,7 @@ In addition, units containing one or more models with the Zealot special rule re
       <modifiers/>
       <description>After normal attacks by this weapon have been resolved, count the number of unsaved wounds caused on the target unit. Immediately resolve a number of additional automatic hits on the same unit using the weapon’s profile equal to the number of unsaved wounds – these can then be saved normally. Models in the targeted unit must still be in range in order for these additional hits to take effect. These additional hits do not themselves inflict more hits!</description>
     </rule>
-    <rule id="5eea-958c-d623-c3c9" name="Unwieldy" book="BRB 7th" hidden="false">
+    <rule id="5eea-958c-d623-c3c9" name="Unwieldy" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -15944,22 +15944,23 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <modifiers/>
       <description>When a unit that contains at least one model with this special rule shoots, one model in the unit can shoot at a different target to the rest of his unit. Once this shooting attack has been resolved, resolve the shooting attacks made by the rest of the unit. These must be at a different target, which cannot be a unit forced to disembark as a result of the Split Firing unit’s initial shooting attack.</description>
     </rule>
-    <rule id="0d66-14c9-d2f4-708b" name="Stealth" book="BRB 7th" hidden="false">
+    <rule id="0d66-14c9-d2f4-708b" name="Stealth" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Woods) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
+
 Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
     </rule>
-    <rule id="7911-b951-c819-2f4f" name="Strafing Run" book="BRB 7th" hidden="false">
+    <rule id="7911-b951-c819-2f4f" name="Strafing Run" book="HH: Rulebook" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>When shooting Assault, Heavy, Rapid Fire or Salvo weapons at Artillery, Beasts, Bikes, Cavalry, Infantry, Monstrous Creatures and vehicles without the Flyer or Skimmer type, this vehicle has +1 Ballistic Skill.</description>
     </rule>
-    <rule id="2e96-21ae-353e-8742" name="Supersonic" book="BRB 7th" hidden="false">
+    <rule id="2e96-21ae-353e-8742" name="Supersonic" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16386,7 +16387,7 @@ Fear, Hammer of Wrath, Invincible Behemoth, Move Through Cover, Relentless, Smas
 If the target fails the test, it must immediately Go to Ground (see Warhammer 40,000: The Rules ). As the target has already taken its saves, Going to Ground does not protect it against the fire of the weapon that caused the test – it’s too late! As long as the test is passed, a target can be called upon to take multiple Pinning tests in a single turn, but only once for each model shooting at them. If a model has already Gone to Ground, no further Pinning tests are taken.
 If the special rules of a model specify that they can never be Pinned, they automatically pass this test. Such models can still Go to Ground voluntarily if they wish.</description>
     </rule>
-    <rule id="9079-7061-f12c-a6ba" name="Swarms" book="BRB" page="" hidden="false">
+    <rule id="9079-7061-f12c-a6ba" name="Swarms" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16424,7 +16425,7 @@ Ram:
       <modifiers/>
       <description>A weapon with this special rule is treated like any other Template weapon, but when firing it in the Shooting phase, place the template so that the narrow end is within 12&quot; of the weaon and the wide end is no closer to the weapon than the narrow end.</description>
     </rule>
-    <rule id="b11c-0ef4-af6b-d96f" name="Two-Handed" book="BRB" hidden="false">
+    <rule id="b11c-0ef4-af6b-d96f" name="Two-Handed" book="BRB" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16440,14 +16441,14 @@ Ram:
 
 In addition, attacks with the Sniper special rule only cause a Wound on a roll of a 6.  Attacks with the Poisoned special rule only cause a Wound on a roll of a 6 (unless the attack&apos;s Strength would cause a Wound on a lower result)</description>
     </rule>
-    <rule id="78a5-e7d1-89b3-2fb5" name="Vector Dancer" book="BRB" hidden="false">
+    <rule id="78a5-e7d1-89b3-2fb5" name="Vector Dancer" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>A model with this special rule can make an additional pivot on the spot of up to 90 degrees at the end of its move. A model that uses this extra pivot cannot move Flat Out in the following Shooting phase.</description>
     </rule>
-    <rule id="5341-7110-d8d4-171a" name="Vector Strike" book="BRB" hidden="false">
+    <rule id="5341-7110-d8d4-171a" name="Vector Strike" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16463,7 +16464,7 @@ A model that made a Vector Strike in its Movement phase counts as having already
       <modifiers/>
       <description>Up to six occupying models can fire out of each of this building&apos;s fire points.</description>
     </rule>
-    <rule id="3d3c-398b-775d-72ff" name="Vortex" book="BRB" hidden="false">
+    <rule id="3d3c-398b-775d-72ff" name="Vortex" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -16596,12 +16597,12 @@ Shooting attack against the shield facing is reduced by -1, the effect increasin
       <modifiers/>
       <description>Pinning tests taken because of a weapon with this special rule suffer a -1 Leadership penalty.</description>
     </rule>
-    <rule id="2c16-3b25-a714-a656" name="Support Squad" book="HH:LACAL" page="34" hidden="false">
+    <rule id="2c16-3b25-a714-a656" name="Support Squad" book="HH: Rulebook" page="173" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>May not fill the compulsory Troops slots on a Force Organization chart.</description>
+      <description>A squad with this special rule may not be chosen as a compulsory choice for the army as part of the Force Organisation chart.</description>
     </rule>
     <rule id="dbf6-2f12-bb4a-517c" name="Feel No Pain (5+)" book="HH: Rulebook" page="164" hidden="false">
       <profiles/>
