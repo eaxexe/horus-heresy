@@ -3333,29 +3333,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="a3cf-4fd0-76a0-b47b" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="0378-e235-c8cd-0cb8" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2372-4a90-f4b4-78c2" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="09ad-ef83-4a62-46fe" name="Castellax class Battle-automata" book="" page="" hidden="false" collective="false" type="model">
           <profiles>
@@ -3393,7 +3371,29 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2514-b4ae-39f4-093e" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38db-7bf2-0694-b3f4" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="63d5-3241-6927-0e48" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="ef75-1e67-6e76-ab88" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="ea3f-250c-75c1-85a0" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="6564-7afd-3cef-078a" name="May exchange its Mauler bolt cannon for:" hidden="false" collective="false" defaultSelectionEntryId="11ea-37df-c659-bc84">
@@ -3878,22 +3878,7 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="5c9b-acfa-588b-9aeb" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e1ce-32cb-1d3f-3a5a" name="New CategoryLink" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="efb2-67e0-c8a5-9d43" name="Vorax Class Battle-automata" page="0" hidden="false" collective="false" type="model">
           <profiles>
@@ -3923,7 +3908,29 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f557-1a16-8c37-f307" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="867d-a720-a911-50dc" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="a40a-7d03-6b80-d231" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="bd88-3992-099f-d639" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="b355-6db3-caca-6dc2" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="1b52-8c7c-83a4-64a9" name="Two Rotor Cannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -4443,14 +4450,14 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="6e40-5da5-bb74-c2b3" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
+        <categoryLink id="d115-15ed-f2d3-34bc" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="d115-15ed-f2d3-34bc" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
+        <categoryLink id="f6ef-e393-21ca-ce88" name="New CategoryLink" hidden="false" targetId="7f05-b8f0-c167-f377" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9110,22 +9117,7 @@ Buildings and Fortifications D</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="972c-91a0-764b-3fe0-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="2c87-df97-9d45-cdb9" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="7d36-6762-8723-3ee2" name="Vultarax Stratos-automata" page="0" hidden="false" collective="false" type="model">
           <profiles>
@@ -9167,7 +9159,29 @@ Buildings and Fortifications D</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0351-f950-a3fc-9b97" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d97-5815-e44b-ef59" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="06c1-8f7c-58d6-e85f" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="76d6-2cad-189d-5815" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="a29c-0c07-9ca6-9574" name="New CategoryLink" hidden="false" targetId="25d0-388c-dd16-af9a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="6afd-13e0-1ef7-991d" name="Vultarax arc blaster " hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -13403,29 +13417,7 @@ Buildings and Fortifications D</description>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="a4f5-ed7a-3379-4dbb" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="8dab-0ef9-4395-de1d" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="866c-15c1-2488-4034" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="48fe-db1c-3260-1acf" name="Domitar Class Battle-automata" book="Taghmata Army List" page="35" hidden="false" collective="false" type="model">
           <profiles>
@@ -13491,7 +13483,29 @@ Buildings and Fortifications D</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c49b-cf2c-6fd6-8466" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98c2-8f7d-409f-3349" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="d6d8-eabf-900d-144e" name="New CategoryLink" hidden="false" targetId="78ea-eea8-0ac5-b7de" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="0650-a3f1-7d05-0a06" name="New CategoryLink" hidden="false" targetId="7fdd-2a97-d0e9-6524" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="45de-4834-d839-7ca7" name="New CategoryLink" hidden="false" targetId="8ec4-17b5-7fea-c682" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="f9a2-bcd8-4b73-2820" name="Missile Launcher" hidden="false" collective="false" type="upgrade">
               <profiles>

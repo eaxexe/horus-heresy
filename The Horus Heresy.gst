@@ -129,7 +129,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="bedc-6602-002c-79af" name="Flying Gargantuan Creature" book="HH: Rulebook" page="69" hidden="false">
+    <categoryEntry id="bedc-6602-002c-79af" name="Flying Gargantuan Creature (GST)" book="HH: Rulebook" page="69" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -191,28 +191,28 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="121d-dc17-273c-40d0" name="Titan" hidden="false">
+    <categoryEntry id="121d-dc17-273c-40d0" name="Titan (GST)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="219d-aefa-dfa5-44db" name="Compulsory Troops" hidden="false">
+    <categoryEntry id="219d-aefa-dfa5-44db" name="Compulsory Troops (GST)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="becd-7a6d-e80f-878e" name="Compulsory HQ" hidden="false">
+    <categoryEntry id="becd-7a6d-e80f-878e" name="Compulsory HQ (GST)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="85b9-e0e8-56b9-2bd3" name="Super-Heavy Vehicle" book="HH: Rulebook" page="90" hidden="false">
+    <categoryEntry id="85b9-e0e8-56b9-2bd3" name="Super-Heavy Vehicle (GST)" book="HH: Rulebook" page="90" hidden="false">
       <profiles/>
       <rules>
         <rule id="3f70-0816-8f4d-8b7a" name="Thunderblitz" book="HH: Rulebook" page="91" hidden="false">
@@ -246,7 +246,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="59f5-766f-b21c-d584" name="Super-Heavy Walker" book="HH: Rulebook" page="92" hidden="false">
+    <categoryEntry id="59f5-766f-b21c-d584" name="Super-Heavy Walker (GST)" book="HH: Rulebook" page="92" hidden="false">
       <profiles/>
       <rules>
         <rule id="78aa-b371-405b-de13" name="Stomp" hidden="false">
@@ -304,7 +304,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="7ba3-1f62-b66a-75d8" name="Gargantuan Creature" book="HH: Rulebook" page="68" hidden="false">
+    <categoryEntry id="7ba3-1f62-b66a-75d8" name="Gargantuan Creature (GST)" book="HH: Rulebook" page="68" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -360,7 +360,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="070e-4392-e330-38ff" name="Bike" book="HH: Rulebook" page="64" hidden="false">
+    <categoryEntry id="070e-4392-e330-38ff" name="Bike (GST)" book="HH: Rulebook" page="64" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -392,7 +392,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="d4d1-3371-784f-6bc5" name="Jetbike" book="HH: Rulebook" page="64" hidden="false">
+    <categoryEntry id="d4d1-3371-784f-6bc5" name="Jetbike (GST)" book="HH: Rulebook" page="64" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -424,7 +424,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="9c5e-1393-264d-b3db" name="Jump Units" book="HH: Rulebook" page="66" hidden="false">
+    <categoryEntry id="9c5e-1393-264d-b3db" name="Jump Units (GST)" book="HH: Rulebook" page="66" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -444,7 +444,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="84e8-6136-d246-3b26" name="Jet Pack Units" book="HH: Rulebook" page="66" hidden="false">
+    <categoryEntry id="84e8-6136-d246-3b26" name="Jet Pack Units (GST)" book="HH: Rulebook" page="66" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -470,7 +470,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="2682-26e4-ea54-d490" name="Beasts" book="HH: Rulebook" page="67" hidden="false">
+    <categoryEntry id="2682-26e4-ea54-d490" name="Beasts (GST)" book="HH: Rulebook" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -484,7 +484,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="2112-9f21-28b0-ebdd" name="Cavalry" book="HH: Rulebook" page="67" hidden="false">
+    <categoryEntry id="2112-9f21-28b0-ebdd" name="Cavalry (GST)" book="HH: Rulebook" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -504,7 +504,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="7f05-b8f0-c167-f377" name="Monstrous Creature" book="HH: Rulebook" page="67" hidden="false">
+    <categoryEntry id="7f05-b8f0-c167-f377" name="Monstrous Creature (GST)" book="HH: Rulebook" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -542,7 +542,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="1964-e9c0-cfd1-3401" name="Flying Monstrous Creature" book="HH: Rulebook" page="67" hidden="false">
+    <categoryEntry id="1964-e9c0-cfd1-3401" name="Flying Monstrous Creature (GST)" book="HH: Rulebook" page="67" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -592,14 +592,14 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="b55b-f1fd-e5ac-10e8" name="Vehicle" book="HH: Rulebook" page="70" hidden="false">
+    <categoryEntry id="b55b-f1fd-e5ac-10e8" name="Vehicle (GST)" book="HH: Rulebook" page="70" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="9eab-1097-b74d-d71b" name="Transport" book="HH: Rulebook" page="77" hidden="false">
+    <categoryEntry id="9eab-1097-b74d-d71b" name="Transport (GST)" book="HH: Rulebook" page="77" hidden="false">
       <profiles/>
       <rules>
         <rule id="df8b-3546-2da6-a1fa" name="Unshakeable Nerve" book="HH: Rulebook" page="77" hidden="false">
@@ -614,7 +614,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="df36-613c-927b-9d71" name="Flyer" hidden="false">
+    <categoryEntry id="df36-613c-927b-9d71" name="Flyer (GST)" hidden="false">
       <profiles/>
       <rules>
         <rule id="1456-1dcd-c05c-3654" name="Zooming Flyer" book="HH: Rulebook" page="81" hidden="false">
@@ -636,7 +636,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="b939-5cb1-f2f0-d428" name="Chariots" book="HH: Rulebook" page="82" hidden="false">
+    <categoryEntry id="b939-5cb1-f2f0-d428" name="Chariots (GST)" book="HH: Rulebook" page="82" hidden="false">
       <profiles/>
       <rules>
         <rule id="2ee4-e762-f69d-87c2" name="Chariot Hammer of Wrath" hidden="false">
@@ -651,7 +651,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="578e-f7c5-d7da-5038" name="Skimmer" book="HH: Rulebook" page="85" hidden="false">
+    <categoryEntry id="578e-f7c5-d7da-5038" name="Skimmer (GST)" book="HH: Rulebook" page="85" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -665,7 +665,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="9403-b927-1ea0-dd3d" name="Walker" book="HH: Rulebook" page="86" hidden="false">
+    <categoryEntry id="9403-b927-1ea0-dd3d" name="Walker (GST)" book="HH: Rulebook" page="86" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -679,7 +679,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="1d4d-797e-ae2c-ec41" name="Super-Heavy Flyer" book="HH: Rulebook" page="93" hidden="false">
+    <categoryEntry id="1d4d-797e-ae2c-ec41" name="Super-Heavy Flyer (GST)" book="HH: Rulebook" page="93" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -699,7 +699,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="ba64-08ad-b253-4c5c" name="Daemon" hidden="false">
+    <categoryEntry id="ba64-08ad-b253-4c5c" name="Daemon (GST)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
