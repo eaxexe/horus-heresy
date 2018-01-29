@@ -3724,40 +3724,47 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="4840-547e-3930-88fd" name="May exchange close combat weapon for:" hidden="false" collective="false">
+        <selectionEntryGroup id="4840-547e-3930-88fd" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="a112-2f45-52df-dc43">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0c6-84f3-154d-34bf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2ef2-b579-5c84-588b" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="ba69-2450-6320-2b5a" name="Tainted Weapon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="a112-2f45-52df-dc43" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="7e8f-e1c8-f877-3059" hidden="false" targetId="cb31-eb2d-2dbe-0d13" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e9c-c91c-5194-b036" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="2c07-3361-e31c-7864" name="Tainted Weapon" hidden="false" targetId="4655-9410-acb3-e4c9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="5">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -12215,6 +12222,25 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <rules/>
       <infoLinks>
         <infoLink id="2244-65d1-54aa-63b5" name="Augmented Weapon" hidden="false" targetId="2432-b2c2-9023-53c0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="4655-9410-acb3-e4c9" name="Tainted Weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="16ec-2c94-5310-d083" name="Tainted Weapon" hidden="false" targetId="cb31-eb2d-2dbe-0d13" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
