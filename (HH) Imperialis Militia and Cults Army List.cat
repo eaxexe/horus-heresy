@@ -1089,7 +1089,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b77d-0b6c-c241-2e5e" name="New EntryLink" hidden="false" targetId="f2a9-6662-7cb6-8de7" type="selectionEntry">
+    <entryLink id="b77d-0b6c-c241-2e5e" name="Enginseer Auxilia" hidden="false" targetId="f2a9-6662-7cb6-8de7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4017,7 +4017,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -4110,7 +4112,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -4203,7 +4207,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -4303,7 +4309,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -4390,7 +4398,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -7242,72 +7252,61 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="4397-5bcb-6b8a-624f" name="May exchange Flak Armour for:" hidden="false" collective="false">
+        <selectionEntryGroup id="4397-5bcb-6b8a-624f" name="May exchange Flak Armour for:" hidden="false" collective="false" defaultSelectionEntryId="d664-41bf-9923-5d5e">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01a2-d41e-45a3-7140" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="01a2-d41e-45a3-7140" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2495-970d-b976-0784" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="f1df-3ea7-b311-72d8" name="Carapace Armour" hidden="false" collective="false" type="upgrade">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d664-41bf-9923-5d5e" name="Flak Armour" hidden="false" targetId="1cec-5673-79e4-f745" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4f8f-b5b9-318d-fe93" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c3fd-ab0b-5ec7-7679" name="Power Armour" hidden="false" collective="false" type="upgrade">
+            </entryLink>
+            <entryLink id="85c1-8878-7f77-8f2e" name="Carpace Amrour" hidden="false" targetId="29be-36bc-f118-a40e" type="selectionEntry">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="c6f9-dbb5-dab7-7fd4" hidden="false" targetId="341c-720f-2613-466f" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9fc-83fa-ebd1-f2d2" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
+            </entryLink>
+            <entryLink id="7b52-0e48-f19d-f454" name="Power Armour" hidden="false" targetId="7bbe-a362-7f21-efb9" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="17d3-f446-0a2f-d63e" name="May exchange Refractor Field for:" hidden="false" collective="false">
+        <selectionEntryGroup id="17d3-f446-0a2f-d63e" name="May exchange Refractor Field for:" hidden="false" collective="false" defaultSelectionEntryId="6162-e297-627b-d241">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8998-b9d9-d175-f9f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="85bd-f397-23e2-9de9" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="0326-af84-5c67-545e" name="Iron Halo" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="48fb-7ace-f6eb-b96b" hidden="false" targetId="6950-0e85-bb60-2beb" type="profile">
+                <infoLink id="48fb-7ace-f6eb-b96b" name="Iron Halo" hidden="false" targetId="6950-0e85-bb60-2beb" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -7315,9 +7314,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f36-0140-1e63-3e26" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -7325,6 +7322,25 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <costs>
                 <cost name="pts" costTypeId="points" value="15.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="6162-e297-627b-d241" name="Refractor Field" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f6ad-4c67-1362-66ad" name="Refractor Field" hidden="false" targetId="4845-0bfe-2c22-883f" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -7478,13 +7494,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="b95f-4a4e-cf6d-1591" name="May exchange laspistol/autopistol for:" hidden="false" collective="false">
+            <selectionEntryGroup id="b95f-4a4e-cf6d-1591" name="May exchange laspistol/autopistol for:" hidden="false" collective="false" defaultSelectionEntryId="e41d-da0f-1fe5-411f">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e24f-c774-d4fe-34ea" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e24f-c774-d4fe-34ea" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eaba-dd7f-2121-4f5b" type="min"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -7493,9 +7510,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3223-5ca9-4368-20d4" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7508,7 +7523,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="6a27-73ad-978f-94b1" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
+                    <infoLink id="6a27-73ad-978f-94b1" name="Augmented Weapon" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7516,9 +7531,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2bb-a6da-ee2e-c31c" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7531,7 +7544,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="5232-e994-a041-3314" hidden="false" targetId="0677-72ce-f493-574c" type="profile">
+                    <infoLink id="5232-e994-a041-3314" name="Charnabal Sabre" hidden="false" targetId="0677-72ce-f493-574c" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7545,9 +7558,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42ad-8c1d-045d-1271" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7560,7 +7571,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="41fe-680b-8133-4efd" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="41fe-680b-8133-4efd" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7568,9 +7579,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e879-0bbe-0539-91e1" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7583,7 +7592,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="cf7a-824f-2e49-44d4" hidden="false" targetId="4848-a6a5-efec-3457" type="profile">
+                    <infoLink id="cf7a-824f-2e49-44d4" name="Needle Pistol" hidden="false" targetId="4848-a6a5-efec-3457" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7591,9 +7600,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9dbe-f298-2b49-d0b9" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7606,7 +7613,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="66bc-6c5c-9771-323d" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="66bc-6c5c-9771-323d" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7614,9 +7621,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de16-c8f6-584b-c617" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7630,9 +7635,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9130-6329-eace-d894" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7646,9 +7649,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="55cb-efd0-27e0-ad49" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7662,9 +7663,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eb6b-c5fd-6269-33c2" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7673,17 +7672,56 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <cost name="pts" costTypeId="points" value="15.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="e41d-da0f-1fe5-411f" name="Laspistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="07e1-db83-6bd5-f5f7" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="a3db-94d4-02c1-8b7e" name="Autopistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4e0e-5841-4184-d479" name="Autopistol" hidden="false" targetId="d660-38fe-9058-a1b9" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6976-112f-992b-7d77" name="May exchange close combat weapon for:" hidden="false" collective="false">
+            <selectionEntryGroup id="6976-112f-992b-7d77" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="ac36-9ca7-0a12-a47b">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2366-2ff5-ac4b-b3c0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2366-2ff5-ac4b-b3c0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a17-b5df-ce7d-0dbb" type="min"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -7692,9 +7730,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c29-a8a4-aaf1-d3af" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7707,7 +7743,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="7d51-8d4c-0cc7-fa3c" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
+                    <infoLink id="7d51-8d4c-0cc7-fa3c" name="Augmented Weapon" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7715,9 +7751,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8930-5013-359b-af34" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7730,7 +7764,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="b506-c312-78c2-e9ed" hidden="false" targetId="0677-72ce-f493-574c" type="profile">
+                    <infoLink id="b506-c312-78c2-e9ed" name="Charnabal Sabre" hidden="false" targetId="0677-72ce-f493-574c" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7744,9 +7778,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b15-a8e9-5798-ffe4" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7759,7 +7791,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="1011-0fbc-bf24-c5d7" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="1011-0fbc-bf24-c5d7" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7767,9 +7799,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c973-a883-089a-1be3" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7782,7 +7812,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="9d66-7cc7-858f-0298" hidden="false" targetId="4848-a6a5-efec-3457" type="profile">
+                    <infoLink id="9d66-7cc7-858f-0298" name="Needle Pistol" hidden="false" targetId="4848-a6a5-efec-3457" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7790,9 +7820,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="750b-f7d5-38eb-ae79" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7805,7 +7833,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="146a-a470-59f9-1eef" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="146a-a470-59f9-1eef" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7813,9 +7841,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="68c2-508e-e6f8-c594" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7829,9 +7855,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a24b-f840-9e3d-0963" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7845,9 +7869,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5378-350f-533e-e72f" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7861,9 +7883,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5392-34fb-05f9-2dc3" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -7900,6 +7920,18 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <costs>
                     <cost name="pts" costTypeId="points" value="5.0"/>
                   </costs>
+                </selectionEntry>
+                <selectionEntry id="ac36-9ca7-0a12-a47b" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -12073,6 +12105,65 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="1cec-5673-79e4-f745" name="Flak Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="67ea-3bf8-99cb-f6e0" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="29be-36bc-f118-a40e" name="Carpace Amrour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f22c-5c48-c8ae-192e" name="Carapace armour" hidden="false" targetId="238a-b435-6c68-7756" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7bbe-a362-7f21-efb9" name="Power Armour" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1b6c-0709-c418-a012" name="Power Armour" hidden="false" targetId="341c-720f-2613-466f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4be5-eee6-ab84-8558" name="May exchange heavy bolter for:" hidden="false" collective="false">
@@ -13284,6 +13375,33 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="8"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="4"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 4, Sunder"/>
+      </characteristics>
+    </profile>
+    <profile id="9457-fd74-1072-2be9" name="Sub-Flak" book="HH:CIAL" page="66" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323"/>
+      </characteristics>
+    </profile>
+    <profile id="2e24-f2ec-8466-2e2d" name="Flak armour" book="HH:CIAL" page="66" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Flak armour confers a 5+ save."/>
+      </characteristics>
+    </profile>
+    <profile id="238a-b435-6c68-7756" name="Carapace armour" book="HH:CIAL" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Carapace armour confers a 4+ Armour save."/>
       </characteristics>
     </profile>
   </sharedProfiles>
