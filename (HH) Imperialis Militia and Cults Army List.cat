@@ -1704,7 +1704,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="f936-0463-f665-c2b5" name="New EntryLink" hidden="false" targetId="a505-05af-bd44-56b6" type="selectionEntry">
+    <entryLink id="f936-0463-f665-c2b5" name="Aegis Defense Line" hidden="false" targetId="a505-05af-bd44-56b6" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3745,7 +3745,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -6602,7 +6604,9 @@ D3     Mutation
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -7393,7 +7397,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -7742,7 +7748,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="a3db-94d4-02c1-8b7e" name="Autopistol" hidden="false" collective="false" type="upgrade">
                   <profiles/>
@@ -7761,7 +7769,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -7984,7 +7994,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -8481,7 +8493,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -8540,23 +8554,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-2cda-4b23-d102" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="7d89-2a94-bc7e-be56" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d29-9fde-c7dd-aa5a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4847-2035-6895-b17e" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs/>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="40bc-f9ba-7885-d7de" name="Laspistol or Autopistol" hidden="false" collective="false" defaultSelectionEntryId="d46a-5132-d9f2-63c7">
               <profiles/>
@@ -8590,8 +8588,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
-          <costs/>
+          <entryLinks>
+            <entryLink id="6b94-c777-902c-60f2" name="Close Combat Weapon" hidden="false" targetId="5724-a1c0-97ce-3338" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5c-d301-daf4-ffbc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62c1-7f4b-5d6e-d1af" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c5ec-08c0-058b-2c91" name="Vox Operator" hidden="false" collective="false" type="model">
           <profiles>
@@ -8637,23 +8649,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad01-008a-2ac2-7d5d" type="min"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="8741-2ff4-9fd7-ee14" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff1-492d-5c02-ffb9" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95af-f418-5e86-57b6" type="min"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs/>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="28dd-8606-cfdf-f353" name="Laspistol or Autopistol" hidden="false" collective="false" defaultSelectionEntryId="6833-cd1b-c296-24a7">
               <profiles/>
@@ -8687,8 +8683,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
-          <costs/>
+          <entryLinks>
+            <entryLink id="0946-588c-678a-8440" name="Close Combat Weapon" hidden="false" targetId="5724-a1c0-97ce-3338" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db33-ca1d-59e2-eede" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b45-200f-ed1d-6849" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8841,7 +8851,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="aaf4-2238-26cf-eef5" name="Autoguns" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -8853,7 +8865,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -12372,7 +12386,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="29be-36bc-f118-a40e" name="Carpace Amrour" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -12391,7 +12407,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7bbe-a362-7f21-efb9" name="Power Armour" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -12431,7 +12449,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4655-9410-acb3-e4c9" name="Tainted Weapon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -12450,7 +12470,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f15f-cd8e-c2e7-b1f7" name="Laspistol" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -12469,7 +12491,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="723f-8a49-1818-20f6" name="Autopistol" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -12482,6 +12506,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <modifiers/>
         </infoLink>
       </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5724-a1c0-97ce-3338" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
