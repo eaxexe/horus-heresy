@@ -11227,7 +11227,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="150f-7915-00bf-d5f8" name="May exchange close combat weapon for:" hidden="false" collective="false">
+            <selectionEntryGroup id="150f-7915-00bf-d5f8" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="f548-7883-d5a8-db5f">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11349,7 +11349,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="fa28-ed20-6a9c-1262" name="May exchange laspistol for:" hidden="false" collective="false">
+            <selectionEntryGroup id="fa28-ed20-6a9c-1262" name="May exchange laspistol for:" hidden="false" collective="false" defaultSelectionEntryId="36c5-29cb-3e7b-5091">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11901,213 +11901,244 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="d5ce-5a2a-9bb5-5168" name="Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="7cf1-ab05-7461-9f53" name="May exchange laspistol for:" hidden="false" collective="false" defaultSelectionEntryId="ab1c-62be-1e89-4889">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a98a-21f4-9f9b-bda4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="05be-e887-5a6b-7827" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0d90-83c2-7f53-2aa8" type="min"/>
               </constraints>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="5a0d-11c2-d2c1-111c" name="May exchange laspistol for:" hidden="false" collective="false">
+              <selectionEntries>
+                <selectionEntry id="f5b5-6e9d-b213-b8f5" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="1668-fcfe-2935-a7eb" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bbe4-e00e-f68f-682e" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="3ef4-2820-b0c6-97f2" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f8ee-d477-9ba2-db78" name="Blast Pistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="57a9-a2ff-fc31-4f94" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="260c-788d-83f1-7910" name="Augmented Weapon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="1405-9503-4212-f054" name="Augmented Weapon" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ab1c-62be-1e89-4889" name="Laspistol" hidden="false" targetId="f15f-cd8e-c2e7-b1f7" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="04e8-68a8-f908-6de1" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
-                  <selectionEntries>
-                    <selectionEntry id="7b36-0ff5-d923-fe0b" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2164-0bdf-20a7-576e" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8d1f-d0f7-9ac2-c2df" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks>
-                        <infoLink id="2a87-04a7-715a-0ac8" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                        </infoLink>
-                      </infoLinks>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99e0-e42b-966e-82a6" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="25d5-49e0-d4e0-b64a" name="Blast Pistol" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks>
-                        <infoLink id="b2a7-e967-194b-db1c" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                        </infoLink>
-                      </infoLinks>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="45fa-515c-fca5-ab0b" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="d827-d281-7810-a6e3" name="Augmented Weapon" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks>
-                        <infoLink id="78f7-f156-6b4d-f855" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                        </infoLink>
-                      </infoLinks>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ce6-2d9d-8a06-d9bd" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="837f-f461-a015-ce56" name="May exchange close combat weapon for:" hidden="false" collective="false">
+                </entryLink>
+                <entryLink id="8107-d32f-cbbb-ee7a" name="Autopistol" hidden="false" targetId="723f-8a49-1818-20f6" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="85b4-91ec-75fa-4813" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
-                  <selectionEntries>
-                    <selectionEntry id="4211-1b21-0553-03fe" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="c7c0-bd0e-6b3a-1548" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="2a2d-627f-939a-8c50">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5599-eeac-82fb-39e1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c7f-4e92-9ecb-2c76" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="d887-e0c1-817b-93ab" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="7474-0508-c4ee-ffa1" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56f5-05ec-f598-4a50" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="3.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="7690-9874-5bb4-ef2a" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6fa9-5b4e-8fda-f3db" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="df5b-4ddd-3c00-b98d" name="Blast Pistol" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks>
-                        <infoLink id="2d40-0a08-ef88-04b9" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                        </infoLink>
-                      </infoLinks>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3320-2f45-f178-8000" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="5.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="55b0-0947-66eb-d420" name="Augmented Weapon" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks>
-                        <infoLink id="02f6-3e7f-5f24-d51e" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
-                          <profiles/>
-                          <rules/>
-                          <infoLinks/>
-                          <modifiers/>
-                        </infoLink>
-                      </infoLinks>
-                      <modifiers/>
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf67-823f-e634-318e" type="max"/>
-                      </constraints>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="2.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="20f0-8fd8-5958-2584" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="e216-159e-5872-a641" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="bece-7074-3fd0-5c4d" name="Blast Pistol" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="5cd2-6ef8-35ed-08e8" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cd67-2983-b4b3-bf36" name="Augmented Weapon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="0697-3c0f-286f-fc42" name="Augmented Weapon" hidden="false" targetId="4c65-b01f-1491-555a" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="2a2d-627f-939a-8c50" name="Close Combat Weapon" hidden="false" targetId="5724-a1c0-97ce-3338" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="c458-ffb1-e90f-7118" name="Flak Armour" hidden="false" targetId="1cec-5673-79e4-f745" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2354-28d8-6afc-f0c4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca84-f558-0488-0385" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
@@ -12220,7 +12251,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="0d7a-4eaf-083f-d58e" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
+                <infoLink id="0d7a-4eaf-083f-d58e" name="Autogun" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -12228,9 +12259,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bca1-0bec-1a37-0372" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
