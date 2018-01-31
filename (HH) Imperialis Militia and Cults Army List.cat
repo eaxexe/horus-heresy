@@ -9450,14 +9450,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="64de-bec6-0fac-135b" name="The Militia Fire Teams may exchange their Heavy Stubbers for:" hidden="false" collective="false">
+            <selectionEntryGroup id="64de-bec6-0fac-135b" name="The Militia Fire Teams may exchange their Heavy Stubbers for:" hidden="false" collective="false" defaultSelectionEntryId="4de8-b1bf-b2d7-f118">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3990-6c81-9d64-d824" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fe5-d2d0-1be4-5bc2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7b63-0f2f-dca9-2d3a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d12d-0f91-853a-161e" type="min"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -9479,9 +9479,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="43a2-d1bc-c558-6233" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9494,7 +9492,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="4d9f-9ae0-fba3-537f" name="New InfoLink" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+                    <infoLink id="4d9f-9ae0-fba3-537f" name="Heavy Stubber" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9508,9 +9506,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e6b-b095-cadc-e0e8" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9523,7 +9519,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="3386-1b49-107f-2ef4" name="New InfoLink" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                    <infoLink id="3386-1b49-107f-2ef4" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9531,9 +9527,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="559c-7b62-e47a-ea20" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9546,7 +9540,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="06d6-abab-586f-67f9" name="New InfoLink" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                    <infoLink id="06d6-abab-586f-67f9" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9554,9 +9548,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2848-9da9-5699-a06f" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9569,7 +9561,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="0a7e-e8be-73db-bbe0" name="New InfoLink" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                    <infoLink id="0a7e-e8be-73db-bbe0" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9577,9 +9569,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c95-bfac-de21-1327" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9606,9 +9596,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="98d1-9be3-ea8c-02b8" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries>
                     <selectionEntry id="e303-cfa3-d5bb-346c" name="Flak Missiles" hidden="false" collective="false" type="upgrade">
@@ -9645,7 +9633,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="348d-ded2-a89f-dec5" name="New InfoLink" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                    <infoLink id="348d-ded2-a89f-dec5" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9653,9 +9641,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8887-1f4e-aaf9-49c3" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9668,7 +9654,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="c9f7-a3ce-da10-a1a8" name="New InfoLink" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                    <infoLink id="c9f7-a3ce-da10-a1a8" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9676,9 +9662,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11f6-52da-a91e-ab0b" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
