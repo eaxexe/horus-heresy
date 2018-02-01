@@ -9441,7 +9441,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="6f8b-273e-5d6b-cca1" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fb86-83d4-744c-8d85" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ebf1-948a-2831-d2e3" type="min"/>
@@ -10755,44 +10768,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       </costs>
     </selectionEntry>
     <selectionEntry id="a05b-1aaf-314c-cbba" name="Imperialis Militia Reconnaissance Squad" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="eebd-f8c6-2b7e-5f07" name="Recon Auxiliary" book="HH5: Tempest" page="197" hidden="false" profileTypeId="556e697423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
-            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
-            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
-            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
-            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="7"/>
-            <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
-          </characteristics>
-        </profile>
-        <profile id="6a79-b05f-2398-cc2d" name="Recon Sergeant" book="HH5: Tempest" page="197" hidden="false" profileTypeId="556e697423232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
-            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
-            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
-            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
-            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-            <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="6c5a-5772-a5f5-a450" hidden="false" targetId="6b07-5fa5-6a1d-b243" type="rule">
@@ -10813,7 +10789,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8576-ccf3-46dc-e293" name="New InfoLink" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule">
+        <infoLink id="8576-ccf3-46dc-e293" name="Infiltrate" hidden="false" targetId="34c7-8b61-a5b8-a301" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10831,7 +10807,164 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="1552-b3fa-79dc-3497" name="Recon Sergeant" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="0546-6f18-9dd3-986f" name="Recon Sergeant" book="HH5: Tempest" page="197" hidden="false" profileTypeId="556e697423232344415441232323">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
+                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
+                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
+                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
+                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
+                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
+                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+                <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="493c-8d6b-2990-bf3d" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a6f2-2eb1-923a-85ac" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="db1d-afdd-e8ed-6af0" name="Krak Grenade" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70aa-e55f-39f3-0e67" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf1-7780-9491-e0b2" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="cfaa-44df-22b9-a7f0" name="May take either:" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e8b3-397f-26dc-3875" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="7cd1-fd21-412f-d15b" name="Melta Bombs" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="2bf8-eff6-5396-0c5a" name="Melta Bombs" hidden="false" targetId="a1d8-f9f3-865a-9faf" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a716-a337-5609-8ff4" name="Single Demolition Charge" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="0d7f-a84f-f63a-d34a" name="Recon Auxiliary" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="d6e2-a820-4a4c-4ea7" name="Recon Auxiliary" book="HH5: Tempest" page="197" hidden="false" profileTypeId="556e697423232344415441232323">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
+                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
+                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="4"/>
+                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
+                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
+                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
+                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="7"/>
+                <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3eec-2552-edbe-c51b" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b71a-6f13-d815-2a5f" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3123-2e12-ac73-4542" name="Krak Grenade" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aa5-cd3b-a3ed-9d49" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03b8-38cf-272b-08c5" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="895a-1e41-51b0-fc9e" name="Entire squad may be take:" hidden="false" collective="false">
           <profiles/>
@@ -10878,52 +11011,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7a1d-0871-efb8-00ea" name="Sergeant may take either:" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="023f-845a-8065-acef" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="db8b-9796-1462-cd31" name="Melta Bombs" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9e9-5462-db79-dace" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="086e-4b0a-22e4-bee1" name="Single Demolition Charge" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76f9-2bee-025d-a9c8" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
