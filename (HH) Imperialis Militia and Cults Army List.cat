@@ -4624,6 +4624,12 @@ D3     Mutation
               <infoLinks/>
               <modifiers/>
             </infoLink>
+            <infoLink id="1c56-a784-5877-0edb" name="Feel No Pain (5+)" hidden="false" targetId="dbf6-2f12-bb4a-517c" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
           </infoLinks>
           <modifiers/>
           <constraints>
@@ -5534,27 +5540,33 @@ D3     Mutation
     </selectionEntry>
     <selectionEntry id="0390-b19f-2fd3-a817" name="Auxilia Ogryn Brute Squad" hidden="false" collective="false" type="unit">
       <profiles/>
-      <rules>
-        <rule id="8105-2591-2592-59c9" name="Very Bulky" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="a847-b749-7e6b-9983" name="d" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </rule>
-        <rule id="afff-f38e-4626-668a" name="Hammer of Wrath" hidden="false">
+        </infoLink>
+        <infoLink id="17ef-91f8-4c1d-16d9" name="Stubborn" hidden="false" targetId="7be5-30af-1a02-0a89" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </rule>
-        <rule id="acd5-f7e7-7d69-3ec1" name="Stubborn" hidden="false">
+        </infoLink>
+        <infoLink id="5c31-7d04-75a3-cc2d" name="Hammer of Wrath" hidden="false" targetId="6f66-b417-6004-0916" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="9dcf-9c2f-9be1-92bc" name="Frag Grenades" hidden="false" targetId="d890-1b84-bbd9-12d3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -5573,7 +5585,15 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="5361766523232344415441232323" value="4+">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="0390-b19f-2fd3-a817" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="29be-36bc-f118-a40e" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -5605,33 +5625,36 @@ D3     Mutation
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="a0f0-34a3-70db-5ebb" name="Entire unit may  exchange their Flak Armour for:" hidden="false" collective="false">
+        <selectionEntryGroup id="a0f0-34a3-70db-5ebb" name="Entire unit may exchange their Flak Armour for:" hidden="false" collective="false" defaultSelectionEntryId="75e7-5d16-29cb-c33f">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3177-361e-787e-4cc3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="492e-467a-7525-0615" type="min"/>
+          </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="15f0-640c-1e4a-c4a3" name="Carapace Armour" hidden="false" collective="false" type="upgrade">
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="75e7-5d16-29cb-c33f" name="Flak Armour" hidden="false" targetId="1cec-5673-79e4-f745" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="10e2-ecd4-67a0-be08" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="25.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
+            </entryLink>
+            <entryLink id="7182-49a3-279d-8af0" name="Carpace Amrour" hidden="false" targetId="29be-36bc-f118-a40e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="6e91-c0c0-5c38-5f58" name="Any model may take one of the following:" hidden="false" collective="false">
           <profiles/>
@@ -5654,7 +5677,7 @@ D3     Mutation
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31bf-2ae1-2bfe-5ab6" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="31bf-2ae1-2bfe-5ab6" type="max"/>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7dcb-acc0-90f4-856c" type="min"/>
           </constraints>
           <categoryLinks/>
@@ -5663,18 +5686,8 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="109e-fe62-0527-dc26" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="109e-fe62-0527-dc26" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5687,18 +5700,8 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="3774-5fd2-6de2-6271" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3774-5fd2-6de2-6271" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5724,18 +5727,8 @@ D3     Mutation
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="5e9c-aa0f-96cc-9a18" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e9c-aa0f-96cc-9a18" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5761,18 +5754,8 @@ D3     Mutation
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="17b0-4a0d-4e3d-1961" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="17b0-4a0d-4e3d-1961" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5798,18 +5781,8 @@ D3     Mutation
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="a13a-edea-f161-fb1a" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a13a-edea-f161-fb1a" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5832,18 +5805,8 @@ D3     Mutation
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="dfc5-30cd-620a-a1db" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dfc5-30cd-620a-a1db" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5866,18 +5829,8 @@ D3     Mutation
               </profiles>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="increment" field="ec6d-813b-c3cd-ea8b" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="0390-b19f-2fd3-a817" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3348-8f83-3eb6-0aab" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ec6d-813b-c3cd-ea8b" type="max"/>
-              </constraints>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
