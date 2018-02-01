@@ -4566,13 +4566,6 @@ D3     Mutation
 - Imperalis Militia Infantry Sqad
 - Imperalis Militia Fire Support Team</description>
         </rule>
-        <rule id="a45b-56b4-584e-b7c7" name="Medi-pack" book="HH5: Tempest" page="199" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Grants the user and any unit they have joined Feel No Pain (5+).</description>
-        </rule>
       </rules>
       <infoLinks/>
       <modifiers/>
@@ -4607,9 +4600,31 @@ D3     Mutation
                 <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
               </characteristics>
             </profile>
+            <profile id="1e60-3ad7-96bf-7882" name="Medi-pack" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="A medi-pack grants its wearer and any unit they have joined the Feel No Pain (5+) special rule."/>
+              </characteristics>
+            </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="ebc6-0609-528f-acf4" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="daf6-5ada-23aa-ccb9" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2edc-6a8d-e5e7-3b22" type="min"/>
