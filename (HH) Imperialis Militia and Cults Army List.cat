@@ -2295,6 +2295,17 @@
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 4, Blast, Barrage, Pinning, One Use"/>
           </characteristics>
         </profile>
+        <profile id="7e72-d710-c383-65dd" name="Auxilia Gorgon Heavy Transporter (Transport)" book="HH5: Tempest" page="198" hidden="false" profileTypeId="307d-047f-ca13-706b" profileTypeName="Transport">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Capacity" characteristicTypeId="8285-4205-b6cd-8473" value="40"/>
+            <characteristic name="Fire Points" characteristicTypeId="b270-a7f9-22b2-3702" value="None"/>
+            <characteristic name="Access Points" characteristicTypeId="d17b-0342-b1dc-b8e7" value="Front Ramp (Two units may disembar per turn)"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules>
         <rule id="9590-7442-e99f-755b" name="Heavy Armoured Prow" book="HH5: Tempest" page="198" hidden="false">
@@ -2317,7 +2328,22 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="5b6f-8ad2-46db-cb7c" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4961-efb8-e53f-4cd4" name="New CategoryLink" hidden="false" targetId="b55b-f1fd-e5ac-10e8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="bf60-73d2-1b7a-3903" name="May be given the following upgrades:" hidden="false" collective="false">
@@ -2331,7 +2357,14 @@
             <selectionEntry id="4055-59fe-f199-12ec" name="Hunter Killer Missile" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="608b-da5e-7c7b-feec" name="Hunter-killer Missile" hidden="false" targetId="a117-de7b-6200-3076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -2348,7 +2381,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="cad6-3a34-90c1-522d" hidden="false" targetId="5585-9f3b-c886-36e2" type="profile">
+                <infoLink id="cad6-3a34-90c1-522d" name="Armoured Ceramite" hidden="false" targetId="5585-9f3b-c886-36e2" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2371,24 +2404,30 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e549-3648-0367-cd7c" name="May replace both its twin-linked autocannons with:" hidden="false" collective="false">
+        <selectionEntryGroup id="e549-3648-0367-cd7c" name="May replace both its twin-linked autocannons with:" hidden="false" collective="false" defaultSelectionEntryId="7994-d666-88b4-9b20">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="20da-b17c-8319-e961" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82a7-8b39-4663-2de7" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="489f-ea4a-9b34-625f" name="Two twin-linked multi-lasers" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="ed1f-7c82-2e10-7a99" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2400,17 +2439,43 @@
             <selectionEntry id="ddf9-543c-f8a6-7e21" name="Two twin-linked lascannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="eb2d-f7ea-e68e-ad4b" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7994-d666-88b4-9b20" name="Two twin-linked Autocannons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="97eb-548e-36dc-823a" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2423,18 +2488,23 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1bc4-0078-dbe9-88ab" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="4c42-8bc6-c7d4-f16f" name="Autocannon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4c42-8bc6-c7d4-f16f" name="Autocannon x 2" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="9781-d5bd-9b9d-77ff" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2443,14 +2513,19 @@
                 <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e2fe-d08e-69ac-9a9c" name="Heavy Flamers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="e2fe-d08e-69ac-9a9c" name="Heavy Flamers x 2 " hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="e2b1-14fc-9f15-ea6e" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2459,14 +2534,19 @@
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="cd02-3bca-326b-d101" name="Heavy Bolters" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="cd02-3bca-326b-d101" name="Heavy Bolters x 2 " hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="eb5e-2097-e916-b380" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2475,14 +2555,19 @@
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ad62-337a-05fc-3e15" name="Multi-lasers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="ad62-337a-05fc-3e15" name="Multi-lasers x 2 " hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="d0d8-30d4-8804-5a91" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2491,14 +2576,19 @@
                 <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="22c0-23fb-d791-9c51" name="Lascannon" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="22c0-23fb-d791-9c51" name="Lascannon x 2 " hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="b58e-8b76-13a4-6cfa" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -11017,13 +11107,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="e36f-7e76-c43a-5940" name="Entire squad may exchange their shotguns for:" hidden="false" collective="false" defaultSelectionEntryId="a41a-5b8a-1350-3119">
+        <selectionEntryGroup id="e36f-7e76-c43a-5940" name="Entire squad may exchange their Lascarbine/Autogun for:" hidden="false" collective="false" defaultSelectionEntryId="a41a-5b8a-1350-3119">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f2c-c76e-78d5-72ce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ea47-62f7-6194-b024" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da6a-16b2-6939-77ae" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -11031,7 +11122,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="8dda-d709-7578-e867" hidden="false" targetId="e139-83cc-f919-7fb7" type="profile">
+                <infoLink id="8dda-d709-7578-e867" name="Auxilia Lasrifle" hidden="false" targetId="e139-83cc-f919-7fb7" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11039,9 +11130,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="37d7-1d17-4879-0e4b" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -11054,7 +11143,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="1772-ef25-cde3-a1b1" hidden="false" targetId="6771-387a-b626-9f63" type="profile">
+                <infoLink id="1772-ef25-cde3-a1b1" name="Shotgun" hidden="false" targetId="6771-387a-b626-9f63" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11062,9 +11151,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d30-a8f9-2c3d-6313" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -11076,11 +11163,16 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <selectionEntry id="c225-6dea-47ca-3bbd" name="Sniper Rifles" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="0e77-3a91-531b-f63c" name="Sniper Rifle" hidden="false" targetId="45a4-5982-7f8b-fb33" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c623-a68b-f8d3-9752" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
