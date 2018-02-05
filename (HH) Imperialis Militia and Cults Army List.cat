@@ -9064,7 +9064,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="30a1-b7a8-870f-708c" name="New InfoLink" hidden="false" targetId="2834-307f-1830-df9a" type="rule">
+        <infoLink id="30a1-b7a8-870f-708c" name="Extremely Bulky" hidden="false" targetId="2834-307f-1830-df9a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9103,37 +9103,11 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="3+"/>
               </characteristics>
             </profile>
-            <profile id="1fe9-a6b9-9b03-6804" name="Auxiliary" book="HH5: Tempest" page="205" hidden="false" profileTypeId="556e697423232344415441232323">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
-                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
-                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
-                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
-                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="6"/>
-                <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
-              </characteristics>
-            </profile>
             <profile id="9a83-9c70-0dfa-8ece" name="Quad Multi-laser" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="15be-bcd3-c530-904f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3344-21a0-c2d4-c478" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="36&quot;"/>
                 <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
@@ -9150,15 +9124,67 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b496-ecd9-0ff7-7194" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries/>
+          <selectionEntries>
+            <selectionEntry id="b405-eaaa-5575-9e20" name="Auxiliary" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d760-71fd-df6a-abbd" name="Auxiliary" book="HH5: Tempest" page="205" hidden="false" profileTypeId="556e697423232344415441232323">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
+                    <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
+                    <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
+                    <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
+                    <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
+                    <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+                    <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
+                    <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+                    <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="6"/>
+                    <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="5+"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f614-4fe5-cc22-4ec5" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-e978-aabe-75f8" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c165-27c3-36d2-075e" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b106-2178-6663-d905" name="Provenance" hidden="false" targetId="9d50-7127-dc55-d542" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="3344-21a0-c2d4-c478" name="May exchange its quad Multi-laser for:" hidden="false" collective="false">
+            <selectionEntryGroup id="3344-21a0-c2d4-c478" name="May exchange its quad Multi-laser for:" hidden="false" collective="false" defaultSelectionEntryId="2447-975e-fd54-0b83">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c15-676c-42e5-6f76" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de7-2926-78e0-9035" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5529-a5de-ec92-28da" type="max"/>
               </constraints>
               <categoryLinks/>
               <selectionEntries>
@@ -9180,9 +9206,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9d4d-549c-90e4-6082" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9209,9 +9233,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e769-631e-4efc-478d" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -9225,9 +9247,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4a05-b69c-a9d3-5b32" type="max"/>
-                  </constraints>
+                  <constraints/>
                   <categoryLinks/>
                   <selectionEntries>
                     <selectionEntry id="6e56-3117-d9b7-2d3e" name="Frag Shells" hidden="false" collective="false" type="upgrade">
@@ -9267,6 +9287,31 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <cost name="pts" costTypeId="points" value="35.0"/>
                   </costs>
                 </selectionEntry>
+                <selectionEntry id="2447-975e-fd54-0b83" name="Quad multi-laser" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9a4c-7b32-3b75-768e" name="Quad Multi-laser" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="36&quot;"/>
+                        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
+                        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="6"/>
+                        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 6, Twin-linked"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
@@ -9279,16 +9324,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="1a65-0d7c-16ec-6237" name="Provenance" hidden="false" targetId="9d50-7127-dc55-d542" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
