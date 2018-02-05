@@ -76,14 +76,14 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="fc8f-a68c-adf6-bfbf" name="Compulsory Troops" hidden="false">
+    <categoryEntry id="fc8f-a68c-adf6-bfbf" name="Compulsory Troops local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="10e1-230f-ba7f-858d" name="Compulsory HQ" hidden="false">
+    <categoryEntry id="10e1-230f-ba7f-858d" name="Compulsory HQ local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -268,22 +268,27 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a448-1827-d3b4-aa38" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="65af-1bf4-a608-829e" name="Compulsory HQ" hidden="false" targetId="10e1-230f-ba7f-858d" primary="false">
+        <categoryLink id="65af-1bf4-a608-829e" name="Compulsory HQ local" hidden="false" targetId="10e1-230f-ba7f-858d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c35a-a29a-7722-d561" type="min"/>
-          </constraints>
+          <constraints/>
         </categoryLink>
-        <categoryLink id="cd00-b1d8-ea13-4135" name="Compulsory Troops" hidden="false" targetId="fc8f-a68c-adf6-bfbf" primary="false">
+        <categoryLink id="cd00-b1d8-ea13-4135" name="Compulsory Troops local" hidden="false" targetId="fc8f-a68c-adf6-bfbf" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5c46-d9d5-1977-5101" name="Compulsory HQ" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1966-9e82-e3c5-0c86" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="636a-c0b3-6774-e54e" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -929,7 +934,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="7ec7-1723-3c29-3726" name="New EntryLink" hidden="false" targetId="0717-c810-5a7f-841d" type="selectionEntry">
+    <entryLink id="7ec7-1723-3c29-3726" name="Mutant Spawn" hidden="false" targetId="0717-c810-5a7f-841d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -961,7 +966,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0dc0-34c1-8aec-964e" name="New EntryLink" hidden="false" targetId="02ca-0436-4d29-a606" type="selectionEntry">
+    <entryLink id="0dc0-34c1-8aec-964e" name="Imperialis Auxilia Medicae Detachment" hidden="false" targetId="02ca-0436-4d29-a606" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1136,6 +1141,13 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="2175-c124-e720-01d9-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f69c-46a0-2436-0c54" name="New CategoryLink" hidden="false" targetId="becd-7a6d-e80f-878e" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1768,7 +1780,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce67-364d-0169-a9d0" name="New EntryLink" hidden="false" targetId="e10f-7b90-ecd3-80a5" type="selectionEntry">
+    <entryLink id="ce67-364d-0169-a9d0" name="Basilica Administratum" hidden="false" targetId="e10f-7b90-ecd3-80a5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4090,7 +4102,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="c4f5-db58-e701-6bcc" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0189-21eb-80eb-a354" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6ba-6158-5adf-617b" type="max"/>
@@ -4185,7 +4210,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="80bc-6a95-4e42-6b20" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="40de-2e18-725e-624b" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2576-ae4f-5b82-dcce" type="max"/>
@@ -4280,7 +4318,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="a3f9-633e-1a96-2dd4" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0297-9195-6587-27d8" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1cd6-fa68-dd4a-a71a" type="max"/>
@@ -4375,7 +4426,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="2ef8-4de3-80e3-cda9" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e128-ee5c-cda7-74ee" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="538b-19e5-fe76-2187" type="max"/>
@@ -4477,7 +4541,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="9148-a9a9-4d6f-18e2" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4aad-2976-9d0f-0ffd" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b12-e3ab-323b-4da4" type="max"/>
@@ -5033,7 +5110,20 @@ D3     Mutation
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="257a-252f-88d3-4637" name="Flak armour" hidden="false" targetId="2e24-f2ec-8466-2e2d" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1061-ca38-e539-518f" name="Auxilia Lascarbine" hidden="false" targetId="a7ca-04d9-b34d-d8cc" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6dd-b0d2-8d0f-b632" type="min"/>
