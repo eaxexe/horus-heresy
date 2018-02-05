@@ -6695,32 +6695,12 @@ D3     Mutation
     <selectionEntry id="f2a9-6662-7cb6-8de7" name="Enginseer Auxilia" book="" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules>
-        <rule id="6fcf-ea0a-6b39-cfe4" name="Battlesmith" book="HH:LACAL" page="81" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>If a Battlesmith is embarked on or in base contact with one or more damaged vehicles during the shooting phase, they may attempt to repair one of them instead of firing a weapon.  To attempt, roll a D6.  On a result of 5+ the Battlesmith may do one of the following:
-
-- Restore a lost Hull Point
-- Repair a Weapon Destroyed result
-- Repair an Immobilised result
-
-If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.</description>
-        </rule>
         <rule id="8350-f1c2-1d1c-5181" name="Cybernetica" book="HH5: Tempest" page="201" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>If the Servo-automata are no longer accompanied by an Enginseer Adept or Magos, they must take a pinning test at the start of each movement phase unless they are already engaged in close combat.</description>
-        </rule>
-        <rule id="9349-9e26-33f3-1367" name="Servo-automata support" book="HH5: Tempest" page="201" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>For each additional servo-arm equipped Servo-Automata in the unit, the Enginseer gains +1 to their Battlesmith rolls.  A roll of &quot;1&quot; will always fail.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -6756,9 +6736,58 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <characteristic name="Save" characteristicTypeId="5361766523232344415441232323" value="3+"/>
               </characteristics>
             </profile>
+            <profile id="c7e5-c6f4-6e56-16d1" name="Servo Arm" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323"/>
+              </characteristics>
+            </profile>
           </profiles>
-          <rules/>
-          <infoLinks/>
+          <rules>
+            <rule id="13bf-6571-1bd0-dd15" name="Battlesmith" book="HH:LACAL" page="81" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>If a Battlesmith is embarked on or in base contact with one or more damaged vehicles during the shooting phase, they may attempt to repair one of them instead of firing a weapon.  To attempt, roll a D6.  On a result of 5+ the Battlesmith may do one of the following:
+
+- Restore a lost Hull Point
+- Repair a Weapon Destroyed result
+- Repair an Immobilised result
+
+If a Weapon Destroyed result is repaired, that weapon may be fired in the following shooting phase.  The Battlesmith cannot use this ability if he has gone to ground or is falling back.</description>
+            </rule>
+            <rule id="0c3d-62cb-948d-710a" name="Servo-automata support" book="HH5: Tempest" page="201" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>For each additional servo-arm equipped Servo-Automata in the unit, the Enginseer gains +1 to their Battlesmith rolls.  A roll of &quot;1&quot; will always fail.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="df27-e166-4999-0f8b" name="Power Armour" hidden="false" targetId="341c-720f-2613-466f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="812b-e187-7ef9-6dba" name="Laspistol" hidden="false" targetId="f2b7-768f-a270-de64" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fe83-c277-fcbc-b707" name="Power Axe" hidden="false" targetId="b3af-1eca-6629-4894" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d29-6dec-6ac4-d960" type="min"/>
@@ -7068,7 +7097,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <selectionEntry id="a93d-38ad-74b8-cfc0" name="Flamer" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="36f5-4407-f305-0920" name="Flamer" hidden="false" targetId="3a71-7de1-1948-3655" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers>
                 <modifier type="increment" field="8c70-c672-bc8a-ad8d" value="1">
                   <repeats>
@@ -7184,7 +7220,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <selectionEntry id="d2df-3f00-ea54-2a87" name="Heavy Bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="b7cc-ebcf-8d46-75cb" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers>
                 <modifier type="increment" field="5940-fc72-9c06-020a" value="1">
                   <repeats>
@@ -7208,7 +7251,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <selectionEntry id="4e02-5afe-9d0b-f38d" name="Multi-melta" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="8597-d3a2-7496-9c18" name="Multi-Melta" hidden="false" targetId="4fc7-8b16-afe4-dad3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers>
                 <modifier type="increment" field="0aa5-d110-1709-40ce" value="1">
                   <repeats>
@@ -10347,7 +10397,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -10967,7 +11019,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0d7f-a84f-f63a-d34a" name="Recon Auxiliary" hidden="false" collective="false" type="model">
           <profiles>
@@ -11020,7 +11074,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
