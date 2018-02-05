@@ -6136,40 +6136,8 @@ D3     Mutation
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Flyer"/>
           </characteristics>
         </profile>
-        <profile id="93e0-448c-f202-30f6" name="Kinetic Piercer Missile" book="HH4: Conquest" page="275" hidden="false" profileTypeId="576561706f6e23232344415441232323">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="ba9a-493a-cf26-21c9" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8917-ffff-3a6b-5aea" type="greaterThan"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="48&quot;"/>
-            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
-            <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="2"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 1, Missile, Armourbane, Heat Seeker, One Use"/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules>
-        <rule id="4193-fe43-5f8a-4d10" name="Supersonic" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-        <rule id="e922-51fc-ac6f-7ac9" name="Deep Strike" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="018a-1c59-f14d-fe04" name="Combat Interdiction" book="HH4: Conquest" page="275" hidden="false">
           <profiles/>
           <rules/>
@@ -6186,13 +6154,25 @@ D3     Mutation
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="a372-ce99-d15d-e80a" hidden="false" targetId="ae6a-c619-bf7c-1caf" type="profile">
+        <infoLink id="a372-ce99-d15d-e80a" name="Armoured Cockpit" hidden="false" targetId="ae6a-c619-bf7c-1caf" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
         <infoLink id="ccbd-e6e7-417c-444e" hidden="false" targetId="3448-7621-7c68-7eb9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e5eb-3ccf-ca2b-5eee" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="261e-2af2-0298-f432" name="Supersonic" hidden="false" targetId="2e96-21ae-353e-8742" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6221,19 +6201,16 @@ D3     Mutation
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="b77a-83be-2c1d-7823" name="Flare Shield" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="e539-c7f3-d8ad-7396" name="Flare Shield" book="HH:LACAL" page="89" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c877-c49c-1b48-da9f" name="Flare Shield" hidden="false" targetId="cb4a-644f-bd8d-7d97" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <characteristics>
-                    <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="A flare shield operates against shooting attacks that strike the vehicle&apos;s front arc.  It reduces the strength of attacks by weapons with the Templae or Blast type by -2, and other shooting attacks by -1.  A flare shield has no effect on attacks from close combat or with the Destroyer rule.  "/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="086f-80b1-f870-65ba" type="max"/>
@@ -6274,13 +6251,14 @@ D3     Mutation
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8917-ffff-3a6b-5aea" name="May exchange its four Kinetic Piercer missiles for:" hidden="false" collective="false">
+        <selectionEntryGroup id="8917-ffff-3a6b-5aea" name="May exchange its four Kinetic Piercer missiles for:" hidden="false" collective="false" defaultSelectionEntryId="3c82-142c-adcd-9f7b">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8471-89e0-b95a-f3f9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e5aa-2b77-909c-1797" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b8e8-f533-097b-b4f9" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -6302,9 +6280,7 @@ D3     Mutation
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c5e-0047-40b6-a748" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -6317,7 +6293,7 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="8535-6f0f-eaa1-c5ad" hidden="false" targetId="8d1e-6e6e-93c0-4885" type="profile">
+                <infoLink id="8535-6f0f-eaa1-c5ad" name="Hellstrike Missiles" hidden="false" targetId="8d1e-6e6e-93c0-4885" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6325,9 +6301,7 @@ D3     Mutation
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="50f9-56fc-f976-1e34" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -6335,6 +6309,31 @@ D3     Mutation
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="3c82-142c-adcd-9f7b" name="Four Kinetic Piercer Missiles" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="82c0-5c33-2b63-79b3" name="Kinetic Piercer Missile" book="HH4: Conquest" page="275" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="48&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
+                    <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="2"/>
+                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 1, Missile, Armourbane, Heat Seeker, One Use"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
