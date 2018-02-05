@@ -1981,7 +1981,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0b31-831f-5490-ccfc" name="New InfoLink" hidden="false" targetId="d219-2314-4834-c054" type="rule">
+        <infoLink id="0b31-831f-5490-ccfc" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2075,7 +2075,14 @@
             <selectionEntry id="e442-ae2d-e683-83dd" name="Searchlight" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="c2a7-c3d4-9eb5-9369" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -2098,7 +2105,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -2106,7 +2113,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="643a-3bbc-3de0-c5c9" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                <infoLink id="643a-3bbc-3de0-c5c9" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2114,9 +2121,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2128,11 +2133,16 @@
             <selectionEntry id="e185-451b-a916-d58c" name="Autocannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="76b6-8a8a-cc5b-6c8f" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2145,7 +2155,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="9662-fa77-1754-1d07" name="New InfoLink" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                <infoLink id="9662-fa77-1754-1d07" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2153,9 +2163,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2168,7 +2176,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="ba11-0ada-b529-5487" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                <infoLink id="ba11-0ada-b529-5487" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2176,9 +2184,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2191,7 +2197,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="6409-6c9f-4f10-57bb" name="New InfoLink" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                <infoLink id="6409-6c9f-4f10-57bb" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2199,9 +2205,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2213,11 +2217,16 @@
             <selectionEntry id="270f-136f-21ba-90f6" name="Twin-linked Autocannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="fd8b-be67-fc0a-25ba" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -2230,7 +2239,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="b9dc-eef5-9363-13ab" hidden="false" targetId="8d1e-6e6e-93c0-4885" type="profile">
+                <infoLink id="b9dc-eef5-9363-13ab" name="Hellstrike Missiles" hidden="false" targetId="8d1e-6e6e-93c0-4885" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2238,9 +2247,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
