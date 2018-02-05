@@ -5204,22 +5204,30 @@ D3     Mutation
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="8ec5-210b-2b07-8a7c" name="May exchange traverse-mounted battlecannon for:" hidden="false" collective="false">
+        <selectionEntryGroup id="8ec5-210b-2b07-8a7c" name="May exchange traverse-mounted battlecannon for:" hidden="false" collective="false" defaultSelectionEntryId="8c1c-0282-01a3-5358">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8950-5185-9763-a24d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bd3-e7ca-bfb5-647a" type="min"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6904-1d1b-2198-481e" name="Twin-linked Lascannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="d03a-e830-7c7f-0965" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e3d-9698-915a-4496" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5228,25 +5236,11 @@ D3     Mutation
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="7f1a-1f26-f800-1c90" name="May exchange hull-mounted autocannon for:" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6aec-27be-0f01-09f5" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="fed9-6f05-f84e-d1a0" name="Multi-laser" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="8c1c-0282-01a3-5358" name="Battlecannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="ad2b-4621-3047-ceaf" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                <infoLink id="fd8f-2528-5b93-c9f9" name="Battle cannon" hidden="false" targetId="94da-501b-a2f5-6c61" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5254,9 +5248,41 @@ D3     Mutation
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b635-a41e-cc64-7a62" type="max"/>
-              </constraints>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7f1a-1f26-f800-1c90" name="May exchange hull-mounted autocannon for:" hidden="false" collective="false" defaultSelectionEntryId="839d-ec4a-4bc4-023f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7bdf-8583-1356-fdb4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c0db-0327-880f-fd03" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="fed9-6f05-f84e-d1a0" name="Multi-laser" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ad2b-4621-3047-ceaf" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5268,11 +5294,16 @@ D3     Mutation
             <selectionEntry id="c725-74f8-1863-32e0" name="Heavy flamer" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f262-80b6-6707-bf77" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="669a-dc15-b135-62a3" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5284,11 +5315,16 @@ D3     Mutation
             <selectionEntry id="d983-4be7-3dd7-d0dd" name="Lascannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="1147-4b9e-d3cd-60bb" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9614-ba82-0f2e-9058" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5302,9 +5338,7 @@ D3     Mutation
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0506-6853-1849-9f66" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5313,25 +5347,11 @@ D3     Mutation
                 <cost name="pts" costTypeId="points" value="30.0"/>
               </costs>
             </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="5763-3716-8717-83f0" name="May exchange both sponson-mounted autocannons for:" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1693-6348-cbbe-3dc3" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="e69f-4d52-365c-29cc" name="Multi-lasers" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="839d-ec4a-4bc4-023f" name="Autocannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="5c12-c34b-0b95-854e" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                <infoLink id="aaa0-b73a-fed8-2a9d" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5339,9 +5359,41 @@ D3     Mutation
                 </infoLink>
               </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f730-5972-2bfd-7323" type="max"/>
-              </constraints>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5763-3716-8717-83f0" name="May exchange both sponson-mounted autocannons for:" hidden="false" collective="false" defaultSelectionEntryId="e6e3-e721-e02a-ca87">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b350-4563-fc8d-dfce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37f0-788c-ddfd-e875" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="e69f-4d52-365c-29cc" name="Multi-lasers" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5c12-c34b-0b95-854e" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5353,11 +5405,16 @@ D3     Mutation
             <selectionEntry id="5e3f-d89f-0471-0fcd" name="Heavy flamers" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="fe97-c781-e63d-7524" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c7d7-8332-e608-91e8" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5369,11 +5426,16 @@ D3     Mutation
             <selectionEntry id="b0f9-ab1c-045a-e8f8" name="Lascannons" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="1138-4330-6d22-226e" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e74d-33ff-e79b-6705" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5381,6 +5443,25 @@ D3     Mutation
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="e6e3-e721-e02a-ca87" name="Autocannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="93a7-704a-ba56-8a97" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -5398,7 +5479,7 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="8b29-80a8-7dbb-dd80" hidden="false" targetId="5585-9f3b-c886-36e2" type="profile">
+                <infoLink id="8b29-80a8-7dbb-dd80" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5436,7 +5517,14 @@ D3     Mutation
             <selectionEntry id="0d18-79cf-a1f2-b9f9" name="Hunter-killer missile" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="58e1-a4ca-ef9f-2512" name="Hunter-killer Missile" hidden="false" targetId="a117-de7b-6200-3076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8d7-8f09-1d55-b33e" type="max"/>
@@ -5452,7 +5540,14 @@ D3     Mutation
             <selectionEntry id="8ec5-f84b-edde-dcdb" name="Dozer blade" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="bbcd-f9d7-f995-8fb5" name="Dozer Blade" hidden="false" targetId="35a2-2083-1522-cd61" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3c97-a9eb-5f04-2af0" type="max"/>
@@ -5493,7 +5588,7 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="eb51-ff64-83f4-3734" hidden="false" targetId="cb4a-644f-bd8d-7d97" type="profile">
+                <infoLink id="eb51-ff64-83f4-3734" name="Flare Shield" hidden="false" targetId="cb4a-644f-bd8d-7d97" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -5516,7 +5611,7 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="302d-f41d-d7f1-cf4b" hidden="false" targetId="23af-6391-0bcf-9f10" type="profile">
+                <infoLink id="302d-f41d-d7f1-cf4b" name="Auxiliary Drive" hidden="false" targetId="23af-6391-0bcf-9f10" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
