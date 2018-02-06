@@ -5901,20 +5901,6 @@ D3     Mutation
                 <cost name="pts" costTypeId="points" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5315-3d8b-7cd3-e974" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="20.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="da52-ea79-a129-d1c5" name="Lascutter" hidden="false" collective="false" type="upgrade">
               <profiles>
                 <profile id="feed-e1a2-528a-131b" name="Lascutter" book="HH:LACAL" page="87" hidden="false" profileTypeId="576561706f6e23232344415441232323">
@@ -6046,7 +6032,22 @@ D3     Mutation
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="dad9-5b14-6278-b0e0" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="205">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -6702,22 +6703,7 @@ D3     Mutation
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="503f-fc41-932a-eb2b" type="min"/>
               </constraints>
               <categoryLinks/>
-              <selectionEntries>
-                <selectionEntry id="32a5-189e-d835-31a8" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="7.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+              <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
                 <entryLink id="171d-3261-fda8-7597" name="Augmented Weapon" hidden="false" targetId="8ff5-b14a-3d0c-0547" type="selectionEntry">
@@ -6725,6 +6711,20 @@ D3     Mutation
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7b78-9655-bde9-4d29" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="7">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
@@ -7879,7 +7879,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="db5a-682c-b423-25a1" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="9b55-28bd-42f3-0b1c" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8004,21 +8011,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="4976-bb5b-6026-f231" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="a6d3-394a-240d-ff76" name="Power Weapon" book="" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="a882-a610-9f31-ee7d" name="Plasma Pistol" hidden="false" targetId="f9fd-36be-dc19-401f" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8032,7 +8032,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="747c-449b-5b6b-e5b3" name="Power Fist" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="dccc-39c7-d4ed-0cdb" name="Power Fist" hidden="false" targetId="4ddd-399c-d71c-4ac1" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8087,7 +8094,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="1f85-2960-b4e5-c0c5" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="6976-112f-992b-7d77" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="ac36-9ca7-0a12-a47b">
               <profiles/>
@@ -8103,7 +8125,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="68fe-ef3e-2d54-d3fb" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="e0bf-4164-9176-8073" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8228,21 +8257,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="2822-e1a4-bdc5-20d5" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="462c-6772-3e32-7201" name="Power Weapon" book="" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="2d35-85bb-9127-bcc5" name="Plasma Pistol" hidden="false" targetId="f9fd-36be-dc19-401f" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8256,7 +8278,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 <selectionEntry id="d8e2-d4af-30eb-a3a7" name="Power Fist" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
-                  <infoLinks/>
+                  <infoLinks>
+                    <infoLink id="b212-d976-7b80-2f3e" name="Power Fist" hidden="false" targetId="4ddd-399c-d71c-4ac1" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
                   <modifiers/>
                   <constraints/>
                   <categoryLinks/>
@@ -8312,7 +8341,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="bce1-a78d-9d0b-5200" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="10">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -8536,7 +8580,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <selectionEntry id="5415-ad65-5fc2-eb41" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="589f-4a6c-4c76-f8e8" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8592,7 +8643,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <selectionEntry id="5041-070e-fc3f-c260" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="6d48-0b4e-b6c8-79c9" name="Plasma Pistol" hidden="false" targetId="f9fd-36be-dc19-401f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8624,24 +8682,17 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                         <cost name="pts" costTypeId="points" value="2.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="a5c9-a158-690f-b963" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
                     <selectionEntry id="c933-3ea1-46e9-d229" name="Power Fist" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="2413-f2a3-2c29-2adf" name="Power Fist" hidden="false" targetId="4ddd-399c-d71c-4ac1" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8663,6 +8714,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <constraints/>
                       <categoryLinks/>
                     </entryLink>
+                    <entryLink id="4bf6-e139-6cb7-d2d7" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="points" value="10">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup id="5f43-95c5-55cf-caf2" name="May exchange close combat weapon for:" hidden="false" collective="false" defaultSelectionEntryId="83da-96e8-2933-d761">
@@ -8679,7 +8744,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <selectionEntry id="5653-0ead-7790-0422" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="bed5-4dd1-7e08-34e0" name="Bolt Pistol" hidden="false" targetId="ec83-0776-ef74-9cc2" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8735,7 +8807,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <selectionEntry id="e86f-90da-782e-1b0c" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="9ffd-1aea-91e4-7ea3" name="Plasma Pistol" hidden="false" targetId="f9fd-36be-dc19-401f" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8767,24 +8846,17 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                         <cost name="pts" costTypeId="points" value="2.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="596d-dcaf-1a37-74de" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                      <categoryLinks/>
-                      <selectionEntries/>
-                      <selectionEntryGroups/>
-                      <entryLinks/>
-                      <costs>
-                        <cost name="pts" costTypeId="points" value="10.0"/>
-                      </costs>
-                    </selectionEntry>
                     <selectionEntry id="5b58-6344-11a6-11e9" name="Power Fist" hidden="false" collective="false" type="upgrade">
                       <profiles/>
                       <rules/>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="1a40-2abd-452e-a18b" name="Power Fist" hidden="false" targetId="4ddd-399c-d71c-4ac1" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints/>
                       <categoryLinks/>
@@ -8811,7 +8883,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
-                  <entryLinks/>
+                  <entryLinks>
+                    <entryLink id="359f-1276-0cfa-ab7a" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="points" value="10">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                      <constraints/>
+                      <categoryLinks/>
+                    </entryLink>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
@@ -10364,6 +10451,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="aa15-a7c8-5b58-8843" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="e524-e073-c1b3-dda0" name="May exchange laspistol for:" hidden="false" collective="false" defaultSelectionEntryId="062e-f7ef-dad0-e662">
@@ -10483,6 +10584,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0d39-9c58-9031-d8a9" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
@@ -11711,20 +11826,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <cost name="pts" costTypeId="points" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="af9a-0d43-f55e-b264" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks>
@@ -11733,6 +11834,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="5ab9-e87e-6f7d-7c1d" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
@@ -11833,20 +11948,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                     <cost name="pts" costTypeId="points" value="2.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="dbc9-8f76-8e71-1045" name="Power Weapon" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name="pts" costTypeId="points" value="10.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks>
@@ -11855,6 +11956,20 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6c43-9a44-1724-3cca" name="Power Weapon" hidden="false" targetId="d6ff-dc36-ff4e-9a78" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
@@ -13043,6 +13158,27 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d6ff-dc36-ff4e-9a78" name="Power Weapon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8d79-348a-ad88-c2a8" name="Power Weapon" hidden="false" targetId="802f-2005-ea92-cedf" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4be5-eee6-ab84-8558" name="May exchange heavy bolter for:" hidden="false" collective="false" defaultSelectionEntryId="eaef-cbfe-83a6-a885">
@@ -13385,7 +13521,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="3aa2-387d-0abf-5df4" hidden="false" targetId="debc-cc0e-8478-6cb5" type="selectionEntry">
+        <entryLink id="3aa2-387d-0abf-5df4" name="Discipline Collars" hidden="false" targetId="debc-cc0e-8478-6cb5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13866,6 +14002,102 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="802f-2005-ea92-cedf" name="Power Weapon" hidden="false" collective="false" defaultSelectionEntryId="3cc1-6c0e-fb57-96af">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fcc0-1299-1574-b84d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7af9-41bd-a915-0594" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="6677-7dc7-fcc8-af0f" name="Power Axe" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="53e0-bf46-e8d8-f068" name="Power Axe" hidden="false" targetId="b3af-1eca-6629-4894" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="de54-ca5e-ac9f-396d" name="Unwieldy" hidden="false" targetId="5eea-958c-d623-c3c9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7091-c226-cc3b-956e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="836e-d61c-f774-9ac9" name="Power Maul" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6a28-df1b-0316-c4c3" name="New InfoLink" hidden="false" targetId="6bbe-f2c1-78e2-da59" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ce61-7a96-a7dc-a8ee" name="New InfoLink" hidden="false" targetId="9d85-46f7-f5e6-a5f7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3bca-9922-91e3-e8a4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3cc1-6c0e-fb57-96af" name="Power Sword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fd32-5614-e40b-7089" name="Power Sword" hidden="false" targetId="038e-23ec-4886-8b00" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e085-6f81-6a59-93e5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
