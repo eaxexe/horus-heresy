@@ -3586,7 +3586,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6d02-c86d-26a3-1f2c" hidden="false" targetId="d32a-558a-5735-ac97" type="selectionEntryGroup">
+        <entryLink id="6d02-c86d-26a3-1f2c" name="Provenances of War" hidden="false" targetId="d32a-558a-5735-ac97" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3601,7 +3601,15 @@
     </selectionEntry>
     <selectionEntry id="96b4-3842-f492-d7cb" name="Warrior Elite" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="18f0-3fde-ed80-cf3a" name="Warrior Elite" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All eligible units and models receive +1 to their Leadership value (to a maximum of 9). Militia Levy squads in an army with this Provenance gain the Support Squad special rule.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
@@ -9899,7 +9907,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -10235,7 +10251,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -10271,7 +10295,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -11318,7 +11350,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -11423,7 +11463,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -11651,7 +11699,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="4c4423232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -11686,7 +11742,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -12338,7 +12402,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="2"/>
@@ -12381,7 +12453,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="4c4423232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="96b4-3842-f492-d7cb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" characteristicTypeId="556e6974205479706523232344415441232323" value="Infantry (Character)"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
@@ -13564,7 +13644,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="0d48-56d3-060c-0d9e" hidden="false" targetId="96b4-3842-f492-d7cb" type="selectionEntry">
+        <entryLink id="0d48-56d3-060c-0d9e" name="Warrior Elite" hidden="false" targetId="96b4-3842-f492-d7cb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
