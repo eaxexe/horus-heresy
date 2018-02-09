@@ -6814,7 +6814,7 @@ D3     Mutation
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="07e0-caca-3bdc-7e31" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="07e0-caca-3bdc-7e31" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -6835,7 +6835,7 @@ D3     Mutation
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="4087-d6c8-05c6-f919" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="4087-d6c8-05c6-f919" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -7973,7 +7973,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="41fe-680b-8133-4efd" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="41fe-680b-8133-4efd" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -8015,7 +8015,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="66bc-6c5c-9771-323d" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="66bc-6c5c-9771-323d" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -8219,7 +8219,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="1011-0fbc-bf24-c5d7" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="1011-0fbc-bf24-c5d7" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -8261,7 +8261,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="146a-a470-59f9-1eef" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="146a-a470-59f9-1eef" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -8626,7 +8626,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <profiles/>
                       <rules/>
                       <infoLinks>
-                        <infoLink id="e3bb-5166-3854-e29b" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                        <infoLink id="e3bb-5166-3854-e29b" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -8647,7 +8647,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <profiles/>
                       <rules/>
                       <infoLinks>
-                        <infoLink id="2b2f-0204-30f7-779e" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                        <infoLink id="2b2f-0204-30f7-779e" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -8790,7 +8790,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <profiles/>
                       <rules/>
                       <infoLinks>
-                        <infoLink id="8384-e969-7fbd-1075" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                        <infoLink id="8384-e969-7fbd-1075" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -8811,7 +8811,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <profiles/>
                       <rules/>
                       <infoLinks>
-                        <infoLink id="e7f5-d3e2-1b31-8b33" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                        <infoLink id="e7f5-d3e2-1b31-8b33" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -10033,7 +10033,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="4d9f-9ae0-fba3-537f" name="Heavy Stubber" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+                    <infoLink id="4d9f-9ae0-fba3-537f" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10216,7 +10216,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="80c3-53f6-dc95-3be1" name="New InfoLink" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+                    <infoLink id="80c3-53f6-dc95-3be1" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10437,7 +10437,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="cbe7-c449-b780-a364" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="cbe7-c449-b780-a364" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10458,7 +10458,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="2d96-6f0c-5c05-946c" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="2d96-6f0c-5c05-946c" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10573,7 +10573,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="3edf-c7a8-28fa-5ae9" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="3edf-c7a8-28fa-5ae9" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10594,7 +10594,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="2993-805a-abe7-0c03" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="2993-805a-abe7-0c03" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10752,7 +10752,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="d236-cf21-da9c-0f24" name="Heavy Stubber" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+                    <infoLink id="d236-cf21-da9c-0f24" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10931,7 +10931,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="5a1e-8661-6298-3785" name="Shotgun" hidden="false" targetId="6771-387a-b626-9f63" type="profile">
+                <infoLink id="5a1e-8661-6298-3785" name="Shotgun" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -10994,7 +10994,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="748d-5a40-2647-55ef" name="Autogun" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
+                <infoLink id="748d-5a40-2647-55ef" name="Autogun" hidden="false" targetId="01e2-722b-da0c-9ccd" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11663,7 +11663,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="1772-ef25-cde3-a1b1" name="Shotgun" hidden="false" targetId="6771-387a-b626-9f63" type="profile">
+                <infoLink id="1772-ef25-cde3-a1b1" name="Shotgun" hidden="false" targetId="07cb-70d7-15c3-5117" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11705,7 +11705,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="f761-eede-88d1-e971" name="Autogun" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
+                <infoLink id="f761-eede-88d1-e971" name="Autogun" hidden="false" targetId="01e2-722b-da0c-9ccd" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -11885,7 +11885,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="ccca-a3c7-0d6a-74c2" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="ccca-a3c7-0d6a-74c2" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -11906,7 +11906,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="6b3e-36d6-9cea-8099" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="6b3e-36d6-9cea-8099" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12007,7 +12007,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="c343-d525-305b-dbb9" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="c343-d525-305b-dbb9" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12028,7 +12028,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="80b7-0cc3-e051-8a91" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="80b7-0cc3-e051-8a91" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12226,7 +12226,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="6925-d429-9087-5ac8" name="Autogun" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
+                <infoLink id="6925-d429-9087-5ac8" name="Autogun" hidden="false" targetId="01e2-722b-da0c-9ccd" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -12576,7 +12576,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="3ef4-2820-b0c6-97f2" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="3ef4-2820-b0c6-97f2" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12597,7 +12597,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="57a9-a2ff-fc31-4f94" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="57a9-a2ff-fc31-4f94" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12692,7 +12692,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="e216-159e-5872-a641" name="Hand Flamer" hidden="false" targetId="ea8a-04f6-ae7c-f351" type="profile">
+                    <infoLink id="e216-159e-5872-a641" name="Hand Flamer" hidden="false" targetId="21b6-668e-d5ef-a8da" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12713,7 +12713,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="5cd2-6ef8-35ed-08e8" name="Blast Pistol" hidden="false" targetId="035e-17b5-4110-4726" type="profile">
+                    <infoLink id="5cd2-6ef8-35ed-08e8" name="Blast Pistol" hidden="false" targetId="92b2-bceb-53de-8dbc" type="profile">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -12890,7 +12890,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="0d7a-4eaf-083f-d58e" name="Autogun" hidden="false" targetId="537a-63f4-d939-c7f2" type="profile">
+                <infoLink id="0d7a-4eaf-083f-d58e" name="Autogun" hidden="false" targetId="01e2-722b-da0c-9ccd" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -13281,7 +13281,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
     <selectionEntry id="5724-a1c0-97ce-3338" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="1b6d-980b-be57-1d11" name="Close Combat Weapon" hidden="false" targetId="0466-931b-dd0b-34e9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -13377,7 +13384,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -13397,7 +13406,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <categoryLinks/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5dcc-0431-b775-09e9" name="May take:" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -13424,12 +13435,16 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -13683,7 +13698,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="37d9-4b7b-6edc-e552" name="Heavy Stubber" hidden="false" targetId="e433-d3c0-5fce-65bd" type="profile">
+            <infoLink id="37d9-4b7b-6edc-e552" name="Heavy Stubber" hidden="false" targetId="981c9d9e-9866-7245-ed4c-8d5e4f9b17f4" type="profile">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14448,18 +14463,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Melee"/>
       </characteristics>
     </profile>
-    <profile id="537a-63f4-d939-c7f2" name="Autogun" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
-        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="-"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Rapid Fire"/>
-      </characteristics>
-    </profile>
     <profile id="a7ca-04d9-b34d-d8cc" name="Auxilia Lascarbine" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
       <profiles/>
       <rules/>
@@ -14505,7 +14508,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="A vehicle with an Auxiliary Drive may ignore Immobilised results it suffers on a D6 roll of a 4+"/>
       </characteristics>
     </profile>
-    <profile id="035e-17b5-4110-4726" name="Blast Pistol" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+    <profile id="b50b-ba1b-060e-5d1e" name="Blast Pistol" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14578,30 +14581,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="-"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="5"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 1, Blast, Poison 4+, Ignores Cover"/>
-      </characteristics>
-    </profile>
-    <profile id="ea8a-04f6-ae7c-f351" name="Hand Flamer" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Template"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
-        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="9"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Pistol"/>
-      </characteristics>
-    </profile>
-    <profile id="e433-d3c0-5fce-65bd" name="Heavy Stubber" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="36&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="4"/>
-        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="-"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 3"/>
       </characteristics>
     </profile>
     <profile id="8d1e-6e6e-93c0-4885" name="Hellstrike Missiles" book="HH1: Betrayal" page="0" hidden="false" profileTypeId="576561706f6e23232344415441232323">
@@ -14695,18 +14674,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Confers 3+ Armour Save"/>
-      </characteristics>
-    </profile>
-    <profile id="6771-387a-b626-9f63" name="Shotgun" book="HH5: Tempest" page="179" hidden="false" profileTypeId="576561706f6e23232344415441232323">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
-        <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="-"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Assault 2"/>
       </characteristics>
     </profile>
     <profile id="ca02-ea95-e9a0-aefc" name="Sub-flak Armour" book="HH5: Tempest" page="182" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
