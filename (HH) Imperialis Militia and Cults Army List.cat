@@ -573,7 +573,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="9917-f2c1-0948-b5ed" name="Walker" hidden="false">
+    <categoryEntry id="9917-f2c1-0948-b5ed" name="Walker local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -594,7 +594,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="dc85-c1a5-17ad-26fe" name="Super-Heavy Vehicle" hidden="false">
+    <categoryEntry id="dc85-c1a5-17ad-26fe" name="Super-Heavy Vehicle local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -632,7 +632,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="3f5a-b6f0-3519-2b29" name="Super-Heavy Walker" hidden="false">
+    <categoryEntry id="3f5a-b6f0-3519-2b29" name="Super-Heavy Walker local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -682,7 +682,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="fc62-7a9e-7dc3-1f83" name="Super-Heavy Flyer" hidden="false">
+    <categoryEntry id="fc62-7a9e-7dc3-1f83" name="Super-Heavy Flyer local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1537,7 +1537,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2053-cb6b-3b78-bc64" name="New EntryLink" hidden="false" targetId="90d3-fb2c-d7c2-6482" type="selectionEntry">
+    <entryLink id="2053-cb6b-3b78-bc64" name="Rogue Psyker" hidden="false" targetId="90d3-fb2c-d7c2-6482" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1601,7 +1601,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="311b-7593-7810-5768" name="New EntryLink" hidden="false" targetId="556e-50e3-2fd0-d12d" type="selectionEntry">
+    <entryLink id="311b-7593-7810-5768" name="Auxilia Baneblade Super-heavy Battle Tank" hidden="false" targetId="556e-50e3-2fd0-d12d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1624,7 +1624,7 @@
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="cf71-2ecd-9e7b-7127-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+        <categoryLink id="50b2-2f15-ac8d-26a0" name="New CategoryLink" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1633,7 +1633,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d314-1e56-8598-2f48" name="New EntryLink" hidden="false" targetId="c564-b56c-977c-64bd" type="selectionEntry">
+    <entryLink id="d314-1e56-8598-2f48" name="Auxilia Malcador Heavy Tank" hidden="false" targetId="c564-b56c-977c-64bd" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1681,7 +1681,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="d11b-5df0-04e8-0742" name="New EntryLink" hidden="false" targetId="ba9a-493a-cf26-21c9" type="selectionEntry">
+    <entryLink id="d11b-5df0-04e8-0742" name="Auxilia Thunderbolt Heavy Fighter" hidden="false" targetId="ba9a-493a-cf26-21c9" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1743,7 +1743,7 @@
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="eafc-ac13-15a4-8dc2" name="New CategoryLink" hidden="false" targetId="10e1-230f-ba7f-858d" primary="false">
+        <categoryLink id="4d5f-8e16-c19f-8697" name="New CategoryLink" hidden="false" targetId="10e1-230f-ba7f-858d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1775,7 +1775,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1fa1-cabb-e243-4c37" name="New EntryLink" hidden="false" targetId="0ed3-b2fd-0ca7-588b" type="selectionEntry">
+    <entryLink id="1fa1-cabb-e243-4c37" name="Imperialis Auxilia Rapier Battery" hidden="false" targetId="0ed3-b2fd-0ca7-588b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1859,7 +1859,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="45d2-5ca3-10d0-9fbf" name="Imperialis Militia Reconaissance Squad" hidden="false" targetId="a05b-1aaf-314c-cbba" type="selectionEntry">
+    <entryLink id="45d2-5ca3-10d0-9fbf" name="Imperialis Militia Reconnaissance Squad" hidden="false" targetId="a05b-1aaf-314c-cbba" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1875,7 +1875,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="450b-1c5e-e369-8ed7" name="Imperialis Militia Squad" hidden="false" targetId="c542-ddd4-6b6b-f761" type="selectionEntry">
+    <entryLink id="450b-1c5e-e369-8ed7" name="Imperialis Militia Infantry Squad" hidden="false" targetId="c542-ddd4-6b6b-f761" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2207,7 +2207,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ce64-e53f-f0bb-b459" name="New EntryLink" hidden="false" targetId="3015-0b77-e848-c0f5" type="selectionEntry">
+    <entryLink id="ce64-e53f-f0bb-b459" name="Plasma Obliterator" hidden="false" targetId="3015-0b77-e848-c0f5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2383,7 +2383,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bfae-804e-a3ab-321d" name="New EntryLink" hidden="false" targetId="9f5b-eccc-689a-2948" type="selectionEntry">
+    <entryLink id="bfae-804e-a3ab-321d" name="Aquila Strongpoint" hidden="false" targetId="9f5b-eccc-689a-2948" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2582,7 +2582,7 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f44-0ed6-d014-be2f" name="Auxilia Arvus Lighter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2f44-0ed6-d014-be2f" name="Auxilia Arvus Lighter" book="HH: CIAL" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="6287-e2ab-a241-882d" name="Auxilia Arvus Lighter" book="HH5: Tempest" page="202" hidden="false" profileTypeId="56656869636c6523232344415441232323">
           <profiles/>
@@ -2595,7 +2595,7 @@
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="11"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="10"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="3"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Flyer (Hover, Transport)"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Flyer, Hover, Transport)"/>
           </characteristics>
         </profile>
         <profile id="7759-4e5c-6f3c-08c5" name="Auxilia Arvus Lighter (Transport)" book="HH5: Tempest" page="202" hidden="false" profileTypeId="307d-047f-ca13-706b" profileTypeName="Transport">
@@ -2623,7 +2623,29 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="77f4-4285-9587-51bd" name="New CategoryLink" hidden="false" targetId="eb6a-4ecf-5b34-df9d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c53a-e0de-90b6-d077" name="New CategoryLink" hidden="false" targetId="c0e7-0e76-382c-968d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5ba1-8fc9-cd6d-e500" name="New CategoryLink" hidden="false" targetId="bf89-14b5-f44f-d721" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="5985-12b4-d6b2-a55f" name="May take any of the following:" hidden="false" collective="false">
@@ -2897,7 +2919,7 @@
         <cost name="pts" costTypeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="46fa-9f49-315a-2044" name="Auxilia Gorgon Heavy Transporter" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="46fa-9f49-315a-2044" name="Auxilia Gorgon Heavy Transporter" book="HH: CIAL" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0c6f-4e11-46fe-35f9" name="Auxilia Gorgon Heavy Transporter" book="HH5: Tempest" page="198" hidden="false" profileTypeId="56656869636c6523232344415441232323">
           <profiles/>
@@ -2967,14 +2989,21 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="5b6f-8ad2-46db-cb7c" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false">
+        <categoryLink id="4961-efb8-e53f-4cd4" name="New CategoryLink" hidden="false" targetId="b55b-f1fd-e5ac-10e8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="4961-efb8-e53f-4cd4" name="New CategoryLink" hidden="false" targetId="b55b-f1fd-e5ac-10e8" primary="false">
+        <categoryLink id="1a28-af3d-2b8d-bca8" name="New CategoryLink" hidden="false" targetId="eb6a-4ecf-5b34-df9d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f1a0-8910-47a2-db9f" name="New CategoryLink" hidden="false" targetId="dc85-c1a5-17ad-26fe" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3019,7 +3048,7 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="cad6-3a34-90c1-522d" name="Armoured Ceramite" hidden="false" targetId="5585-9f3b-c886-36e2" type="profile">
+                <infoLink id="cad6-3a34-90c1-522d" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -4410,7 +4439,14 @@
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="90d3-fb2c-d7c2-6482-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true">
+        <categoryLink id="10e5-4eae-66dc-60f7" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e0cf-ae89-8b1c-40e7" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4646,6 +4682,13 @@ D3     Mutation
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="1f75-2de7-2d46-dc3c" name="New CategoryLink" hidden="false" targetId="7a47-7758-b374-2454" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="a824-1547-1e34-0488" name="Mutant Spawn" book="" hidden="false" collective="false" type="model">
@@ -4698,7 +4741,21 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="837d-73be-55e0-e5d1-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+        <categoryLink id="3140-f9e1-a760-4bc0" name="New CategoryLink" hidden="false" targetId="4f66-71d0-48fc-c20d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="554c-0b90-7c43-8a17" name="New CategoryLink" hidden="false" targetId="061f-8d5b-b9da-fbbd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a9fd-c293-b509-85b1" name="New CategoryLink" hidden="false" targetId="bf89-14b5-f44f-d721" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5290,7 +5347,14 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="02ca-0436-4d29-a606-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true">
+        <categoryLink id="9f16-d920-8132-0e2b" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7484-51e7-56f2-0f10" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5379,7 +5443,7 @@ D3     Mutation
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="556e-50e3-2fd0-d12d" name="Auxilia Baneblade Super-heavy Battle Tank" book="HH4: Conquest" page="284" hidden="false" collective="false" type="model">
+    <selectionEntry id="556e-50e3-2fd0-d12d" name="Auxilia Baneblade Super-heavy Battle Tank" book="HH: CIAL" page="94" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="608d-4bf9-8a87-3c90" name="Baneblade" book="HH5: Tempest" page="210" hidden="false" profileTypeId="56656869636c6523232344415441232323">
           <profiles/>
@@ -5409,11 +5473,55 @@ D3     Mutation
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="3a71-400a-0234-12f7" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8c01-b217-ed70-30e9" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2ea8-08b7-e2a1-af82" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="820c-60fb-1516-9412" name="Demonlisher Cannon" hidden="false" targetId="431c-d4dc-7243-5e8f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c5f3-23e4-79c5-6669" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-linked Heavy Bolter">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="556e-50e3-2fd0-d12d-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+        <categoryLink id="7173-646c-4997-19b1" name="New CategoryLink" hidden="false" targetId="dc85-c1a5-17ad-26fe" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="165c-b2cb-b7bd-08bd" name="New CategoryLink" hidden="false" targetId="bf89-14b5-f44f-d721" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5433,16 +5541,15 @@ D3     Mutation
           <selectionEntries>
             <selectionEntry id="9d5e-02c0-1122-b34b" name="Super-heavy Command Tank" hidden="false" collective="false" type="upgrade">
               <profiles/>
-              <rules>
-                <rule id="cfbe-e1ad-87b9-9d22" name="Super-heavy Command Tank" book="HH4: Conquest" page="243" hidden="false">
+              <rules/>
+              <infoLinks>
+                <infoLink id="eb65-b7d7-1802-cc6a" name="Super-heavy Command Tank" hidden="false" targetId="aaaf-37f2-e6e0-7a2c" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>If the vehicle is upgraded to a Super-heavy Command Tank, all allied units within 24&quot; of the vehicle may re-roll failed Morale Checks.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd62-f0f5-583a-09ba" type="max"/>
@@ -5472,7 +5579,20 @@ D3     Mutation
             <selectionEntry id="d620-6894-3207-40e8" name="Side sponson with one Lascannon and one twin-linked Heavy bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="d27e-0015-0a03-a6eb" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="104f-b47b-a710-5564" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="db98-f70f-aff5-3b38" type="max"/>
@@ -5500,7 +5620,14 @@ D3     Mutation
             <selectionEntry id="a63e-1429-acc0-f841" name="Hunter-killer Missile" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="bc83-aea3-c1c5-68de" name="Hunter-killer Missile" hidden="false" targetId="a117-de7b-6200-3076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bd0a-a0ad-f81b-3e16" type="max"/>
@@ -5516,7 +5643,14 @@ D3     Mutation
             <selectionEntry id="b3db-6b39-7c93-a4e3" name="Armoured Ceramite" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="c3e6-1927-9707-349c" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="80ca-e8a9-5f67-a069" type="max"/>
@@ -5539,18 +5673,29 @@ D3     Mutation
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="110e-773b-b1e6-5a83" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="110e-773b-b1e6-5a83" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="fb4a-b54b-a5ea-a6b7" name="Twin-linked bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f6b8-5385-1b8a-6448" name="Twin-linked" hidden="false" targetId="10a8-8d89-0bec-3e21" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1ff8-3e3a-d172-82b3" name="Boltgun" hidden="false" targetId="09fd-8af1-a6b1-51f7" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc37-609e-e12a-b16e" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5564,9 +5709,7 @@ D3     Mutation
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a625-f081-bc09-3567" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5578,11 +5721,16 @@ D3     Mutation
             <selectionEntry id="d54b-7ecc-faad-6f46" name="Heavy flamer" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="a5a8-beb7-7970-a8ea" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="416c-e309-db9a-d5d9" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5594,11 +5742,16 @@ D3     Mutation
             <selectionEntry id="50e9-afbc-6bd0-adfc" name="Heavy bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f073-d35a-9a8c-e546" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cf2-35cc-0305-9f93" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5610,11 +5763,16 @@ D3     Mutation
             <selectionEntry id="3b46-e11f-f5fa-a1d8" name="Multi-laser" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f517-145a-d886-3853" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e09f-c14e-ff9d-187c" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5626,11 +5784,16 @@ D3     Mutation
             <selectionEntry id="326a-8169-fc28-8f3d" name="Multi-melta" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="37bc-de4f-b0c4-7f05" name="Multi-Melta" hidden="false" targetId="4fc7-8b16-afe4-dad3" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ea31-84de-772d-a716" type="max"/>
-              </constraints>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -5638,6 +5801,44 @@ D3     Mutation
               <costs>
                 <cost name="pts" costTypeId="points" value="20.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="70bb-e8f6-b1ad-515e" name="Autocannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c5d4-47c8-b82c-f2c0" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="9cb7-2430-ede6-2e65" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="398b-ad5c-3b41-2915" name="Heavy Stubber" hidden="false" targetId="0031-0314-5b36-a220" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -5649,14 +5850,21 @@ D3     Mutation
         <cost name="pts" costTypeId="points" value="535.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3119-6513-bb98-1a37" name="Auxilia Heavy Ordnance Battery" hidden="false" collective="false" type="unit">
+    <selectionEntry id="3119-6513-bb98-1a37" name="Auxilia Heavy Ordnance Battery" book="HH: CIAL" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="3119-6513-bb98-1a37-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+        <categoryLink id="3ac1-eadc-7214-5929" name="New CategoryLink" hidden="false" targetId="d90b-42b0-eae2-c101" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="4bc5-03a4-beaa-caad" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5897,7 +6105,7 @@ D3     Mutation
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c564-b56c-977c-64bd" name="Auxilia Malcador Heavy Tank" book="HH5: Tempest" page="206" hidden="false" collective="false" type="model">
+    <selectionEntry id="c564-b56c-977c-64bd" name="Auxilia Malcador Heavy Tank" book="HH: CIAL" page="206" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="419e-f471-6fe1-5c11" name="Malcador Heavy Tank" book="HH5: Tempest" page="206" hidden="false" profileTypeId="56656869636c6523232344415441232323">
           <profiles/>
@@ -5932,7 +6140,21 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c564-b56c-977c-64bd-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+        <categoryLink id="1dd1-73c2-fb56-3791" name="New CategoryLink" hidden="false" targetId="c193-17bc-dbb4-c551" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1195-38fb-06d1-767e" name="New CategoryLink" hidden="false" targetId="85b9-e0e8-56b9-2bd3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7408-c6f3-74ef-ef82" name="New CategoryLink" hidden="false" targetId="bf89-14b5-f44f-d721" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6384,11 +6606,11 @@ D3     Mutation
         <cost name="pts" costTypeId="points" value="235.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0390-b19f-2fd3-a817" name="Auxilia Ogryn Brute Squad" hidden="false" collective="false" type="unit">
+    <selectionEntry id="0390-b19f-2fd3-a817" name="Auxilia Ogryn Brute Squad" book="HH: CIAL" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a847-b749-7e6b-9983" name="d" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule">
+        <infoLink id="a847-b749-7e6b-9983" name="Very Bulky" hidden="false" targetId="abc9-8566-bb61-4b7c" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6416,7 +6638,7 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="0390-b19f-2fd3-a817-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true">
+        <categoryLink id="98a8-fda9-227a-306e" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6705,13 +6927,21 @@ D3     Mutation
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0dd2-3783-8b42-8ea4" name="Auxilia Stormhammer Super-heavy Assault Tank" book="HH4: Conquest" page="289" hidden="false" collective="false" type="model">
+    <selectionEntry id="0dd2-3783-8b42-8ea4" name="Auxilia Stormhammer Super-heavy Assault Tank" book="HH: CIAL" page="95" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f917-bd3b-39d3-4393" name="Stormblade" book="HH4: Conquest" page="288" hidden="false" profileTypeId="56656869636c6523232344415441232323">
+        <profile id="f917-bd3b-39d3-4393" name="Stormblade" book="HH: CIAL" page="95" hidden="false" profileTypeId="56656869636c6523232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="425323232344415441232323" value="4">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="52cd-6c8f-7eda-ca51" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
             <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323" value="14"/>
@@ -6721,7 +6951,7 @@ D3     Mutation
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy"/>
           </characteristics>
         </profile>
-        <profile id="b608-c511-8042-af62" name="Dual Battlecannon" book="HH4: Conquest" page="289" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+        <profile id="b608-c511-8042-af62" name="Dual Battlecannon" book="HH: CIAL" page="95" hidden="false" profileTypeId="576561706f6e23232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6733,7 +6963,7 @@ D3     Mutation
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Ordnance 2, Large Blast, Twin-linked"/>
           </characteristics>
         </profile>
-        <profile id="fc9e-e26f-1a11-4115" name="Stormhammer cannon" book="HH4: Conquest" page="289" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+        <profile id="fc9e-e26f-1a11-4115" name="Stormhammer cannon" book="HH: CIAL" page="95" hidden="false" profileTypeId="576561706f6e23232344415441232323">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6809,7 +7039,7 @@ D3     Mutation
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="19e6-b0ff-a6ea-d4a0" hidden="false" targetId="5585-9f3b-c886-36e2" type="profile">
+                <infoLink id="19e6-b0ff-a6ea-d4a0" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -6828,26 +7058,17 @@ D3     Mutation
                 <cost name="pts" costTypeId="points" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8326-8fe5-df8d-3b36" name="One pintle-mounted Multi-laser or Heavy flamer" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6128-c3c1-511c-b426" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
             <selectionEntry id="6642-829b-28b1-7457" name="Hunter-killer Missiles" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="8d0b-9a1e-96bf-534c" name="Hunter-killer Missile" hidden="false" targetId="a117-de7b-6200-3076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c28-e90a-422a-fe54" type="max"/>
@@ -6905,7 +7126,14 @@ D3     Mutation
             <selectionEntry id="0d15-74a2-137d-cd6b" name="Heavy flamer" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="3ecf-af40-3d8e-6e9c" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4631-9373-d79d-461c" type="max"/>
@@ -6921,7 +7149,14 @@ D3     Mutation
             <selectionEntry id="8823-e214-b340-b9b2" name="Heavy bolter" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="acd8-9e3d-2076-fa84" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1322-36e3-7264-fd48" type="max"/>
@@ -6937,11 +7172,74 @@ D3     Mutation
             <selectionEntry id="efbf-fba6-8786-7e7f" name="Lascannon" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="2157-87e3-0061-25ff" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7279-fecf-9bec-41aa" type="max"/>
               </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a296-99fb-7fa9-2e44" name="Pintle-mounted:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7e72-96f6-038b-5526" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="06a9-2db1-f4fb-535b" name="Multi-laser" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3d25-59ab-82b1-415c" name="Multi-laser" hidden="false" targetId="a01c-b055-a155-4076" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a6a7-33bc-cd52-e64b" name="Heavy Flamer" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cbf7-6fec-814d-78ff" name="Heavy Flamer" hidden="false" targetId="c554-a05e-607c-5831" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups/>
@@ -7022,7 +7320,14 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ba9a-493a-cf26-21c9-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true">
+        <categoryLink id="8a34-1621-bf82-9793" name="New CategoryLink" hidden="false" targetId="c0e7-0e76-382c-968d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="941c-c8f7-f4b7-e37a" name="New CategoryLink" hidden="false" targetId="b55b-f1fd-e5ac-10e8" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7216,7 +7521,14 @@ D3     Mutation
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="bd53-6efb-ac8d-e3a4-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true">
+        <categoryLink id="3817-93c0-50ab-7cc4" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1ee7-8646-e276-e42c" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7554,7 +7866,7 @@ D3     Mutation
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f2a9-6662-7cb6-8de7-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true">
+        <categoryLink id="ca1e-141c-6f8b-b3e8" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7640,7 +7952,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d29-6dec-6ac4-d960" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25a8-9f48-0444-a6ee" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="7c43-982f-ccfe-efc8" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="29cd-b520-d5e2-6a1f" name="Enginseer Adept may take any of the following:" hidden="false" collective="false">
@@ -8228,7 +8548,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="dcad-f2d2-a253-f79b" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="343f-b1ae-c962-4f62-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true">
+        <categoryLink id="7e68-be3b-930f-91e2" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9037,7 +9357,13 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6d69-af10-aceb-d521" name="Krak Grenade" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+        <infoLink id="6d69-af10-aceb-d521" name="Krak Grenade (Shooting)" hidden="false" targetId="d9f7-775b-1047-f335" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1048-b251-562b-86b2" name="Krak Grenade (Assault)" hidden="false" targetId="ba14-6731-7c9d-ef15" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9055,7 +9381,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="ee8f-fcde-88df-7261-485123232344415441232323" hidden="false" targetId="485123232344415441232323" primary="true">
+        <categoryLink id="9cff-c367-1344-f517" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9100,7 +9426,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2547-9376-5924-2874" type="min"/>
             <constraint field="selections" scope="parent" value="7.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6691-87f3-18ea-53c5" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="8288-340a-969f-2c24" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
@@ -9144,7 +9478,22 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f3bc-b646-ea5d-2bc5" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a0d-3574-a6e2-fa96" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="6b19-3b44-efd0-6845" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="c49d-1250-0eeb-6651" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="5847-0f76-f785-afe5" name="Platoon Commander may take:" hidden="false" collective="false">
@@ -9595,7 +9944,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b430-02b1-5eec-869a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3215-2cda-4b23-d102" type="min"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="98e6-00a7-5317-74a3" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="40bc-f9ba-7885-d7de" name="Laspistol or Autopistol" hidden="false" collective="false" defaultSelectionEntryId="d46a-5132-d9f2-63c7">
@@ -9690,7 +10047,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54dd-cf66-c86d-4494" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad01-008a-2ac2-7d5d" type="min"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="8265-c4a5-3939-23d7" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="28dd-8606-cfdf-f353" name="Laspistol or Autopistol" hidden="false" collective="false" defaultSelectionEntryId="6833-cd1b-c296-24a7">
@@ -10018,7 +10383,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="0ed3-b2fd-0ca7-588b-486561767920537570706f727423232344415441232323" hidden="false" targetId="486561767920537570706f727423232344415441232323" primary="true">
+        <categoryLink id="de49-d3bc-1517-941a" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10297,7 +10662,14 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="6de2-2bf3-3277-afab-466173742041747461636b23232344415441232323" hidden="false" targetId="466173742041747461636b23232344415441232323" primary="true">
+        <categoryLink id="d3ad-54ed-e7d0-7b24" name="New CategoryLink" hidden="false" targetId="b55b-f1fd-e5ac-10e8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="223c-2e3d-16b1-43d7" name="New CategoryLink" hidden="false" targetId="9917-f2c1-0948-b5ed" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10549,7 +10921,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="43bb-4acf-c78a-8a35-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true">
+        <categoryLink id="f9a0-9b55-29de-fd3b" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10893,7 +11265,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       </modifiers>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="f299-898a-b637-0aa2-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true">
+        <categoryLink id="916e-8934-344d-ee36" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10982,7 +11354,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c416-317c-a133-54ee" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="504b-d1b3-b2b8-f04f" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="1013-8f7e-2962-9829" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="be11-41a1-3feb-5555" name="May take:" hidden="false" collective="false">
@@ -12008,7 +12388,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="a05b-1aaf-314c-cbba-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true">
+        <categoryLink id="28b4-e220-1171-6589" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12072,7 +12452,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70aa-e55f-39f3-0e67" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf1-7780-9491-e0b2" type="min"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="3326-5b9c-8bbc-64ff" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="cfaa-44df-22b9-a7f0" name="May take either:" hidden="false" collective="false">
@@ -13067,6 +13455,13 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <modifiers/>
           <constraints/>
         </categoryLink>
+        <categoryLink id="4355-fed5-d77e-e414" name="New CategoryLink" hidden="false" targetId="d499-480b-8d0b-9018" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5116-a266-b4b0-fdca" name="Levy Auxiliaries" hidden="false" collective="false" type="model">
@@ -13156,7 +13551,15 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5fef-eff1-ddaf-bf98" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="117e-4aef-1788-b858" type="max"/>
           </constraints>
-          <categoryLinks/>
+          <categoryLinks>
+            <categoryLink id="8315-ea6d-e612-a1cb" name="New CategoryLink" hidden="false" targetId="34b7-4a65-e3fd-63c5" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
           <selectionEntries/>
           <selectionEntryGroups>
             <selectionEntryGroup id="7cf1-ab05-7461-9f53" name="May exchange laspistol for:" hidden="false" collective="false" defaultSelectionEntryId="ab1c-62be-1e89-4889">
@@ -15052,15 +15455,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5585-9f3b-c886-36e2" name="Armoured Ceramite" book="HH:LACAL" page="88" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="A vehicle with this wargear is not subject to the additional D6 armour penetration caused by weapons with the Melta special rule.  "/>
-      </characteristics>
-    </profile>
     <profile id="ae6a-c619-bf7c-1caf" name="Armoured Cockpit" book="HH:LACAL" page="88" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
       <profiles/>
       <rules/>
