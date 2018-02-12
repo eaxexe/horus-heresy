@@ -13,35 +13,35 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="485123232344415441232323" name="HQ" hidden="false">
+    <categoryEntry id="485123232344415441232323" name="HQ local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="456c6974657323232344415441232323" name="Elites" hidden="false">
+    <categoryEntry id="456c6974657323232344415441232323" name="Elites local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="54726f6f707323232344415441232323" name="Troops" hidden="false">
+    <categoryEntry id="54726f6f707323232344415441232323" name="Troops local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="466173742041747461636b23232344415441232323" name="Fast Attack" hidden="false">
+    <categoryEntry id="466173742041747461636b23232344415441232323" name="Fast Attack local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="486561767920537570706f727423232344415441232323" name="Heavy Support" hidden="false">
+    <categoryEntry id="486561767920537570706f727423232344415441232323" name="Heavy Support local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -69,7 +69,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance" hidden="false">
+    <categoryEntry id="5297-7e0f-fa0b-3537" name="Allegiance local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -84,6 +84,188 @@
       <constraints/>
     </categoryEntry>
     <categoryEntry id="10e1-230f-ba7f-858d" name="Compulsory HQ local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="0952-a717-10dd-8804" name="New CategoryEntry" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d499-480b-8d0b-9018" name="Infanry Local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5213-52ac-7e83-1db4" name="Bike Local" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="70b3-3e34-bee2-0292" name="Jetbike Local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7f7a-4004-62eb-a3c9" name="Jump Unit Local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d90b-42b0-eae2-c101" name="Artillery Local" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="bbbd-fbbd-6850-5809" name="Jet Pack Unit Local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="7a47-7758-b374-2454" name="Beast local" book="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="529c-d684-05d7-79d5" name="Calvary local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="b104-3622-d53f-0104" name="Monstrous Creature local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c99f-90c5-1208-6d3c" name="Flying Monstrous Creature local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="abad-39f5-a0e3-1122" name="Gargantuan Creature local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="fd8d-6457-2971-0492" name="Flying Gargantuan Creature local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="bf89-14b5-f44f-d721" name="Vehicle local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="eb6a-4ecf-5b34-df9d" name="Transport local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c0e7-0e76-382c-968d" name="Flyer local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9869-6367-3c92-ed8e" name="Chariot local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="4f66-71d0-48fc-c20d" name="Heavy Vehicle local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="c193-17bc-dbb4-c551" name="Fast Vehicle local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="50d2-f9b7-bed1-084f" name="Skimmer local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9917-f2c1-0948-b5ed" name="Walker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="061f-8d5b-b9da-fbbd" name="Tank local" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="dc85-c1a5-17ad-26fe" name="Super-Heavy Vehcile" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="3f5a-b6f0-3519-2b29" name="Super-Heavy Walker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="fc62-7a9e-7dc3-1f83" name="Super-Heavy Flyer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="34b7-4a65-e3fd-63c5" name="Character" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
