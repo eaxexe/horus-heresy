@@ -1665,7 +1665,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5d41-f9b4-a1c0-253a" name="New EntryLink" hidden="false" targetId="0dd2-3783-8b42-8ea4" type="selectionEntry">
+    <entryLink id="5d41-f9b4-a1c0-253a" name="Auxilia Stormhammer Super-heavy Assault Tank" hidden="false" targetId="0dd2-3783-8b42-8ea4" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1943,30 +1943,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad00-33c7-6846-53ac" name="New EntryLink" hidden="false" targetId="fb92-d215-2011-f911" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="ad00-33c7-6846-53ac-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="9ce8-35cc-0795-6b80" name="New EntryLink" hidden="false" targetId="b973-7d7d-754e-b022" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -1983,7 +1959,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="592c-4d6d-7759-1b2a" name="New EntryLink" hidden="false" targetId="053a-fd01-be65-238e" type="selectionEntry">
+    <entryLink id="592c-4d6d-7759-1b2a" name="Wall of Martyrs Defence Strongpoint" hidden="false" targetId="053a-fd01-be65-238e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2031,7 +2007,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1c99-5c64-d19a-d792" name="New EntryLink" hidden="false" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
+    <entryLink id="1c99-5c64-d19a-d792" name="Wall of Martyrs Vengeance Weapon Battery" hidden="false" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2047,7 +2023,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e11-fa00-bf5f-0d79" name="New EntryLink" hidden="false" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
+    <entryLink id="1e11-fa00-bf5f-0d79" name="Wall of Martyrs Imperial Defence Line" hidden="false" targetId="0f73-97f2-b832-f6d0" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2095,7 +2071,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a172-8a1b-6d4f-b020" name="New EntryLink" hidden="false" targetId="0d50-24ac-a53e-5db7" type="selectionEntry">
+    <entryLink id="a172-8a1b-6d4f-b020" name="Wall of Martyrs Imperial Defence Network" hidden="false" targetId="0d50-24ac-a53e-5db7" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2111,7 +2087,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="71ea-8ba2-dde4-6f78" name="New EntryLink" hidden="false" targetId="5cdd-edbb-07c3-0ba5" type="selectionEntry">
+    <entryLink id="71ea-8ba2-dde4-6f78" name="Skyshield Landing Pad" hidden="false" targetId="5cdd-edbb-07c3-0ba5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2143,7 +2119,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2ba9-f0c1-ce20-c972" name="New EntryLink" hidden="false" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
+    <entryLink id="2ba9-f0c1-ce20-c972" name="Wall of Martyrs Imperial Bunker" hidden="false" targetId="0116-c81b-1c0f-251c" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2159,7 +2135,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a2de-83bc-ae98-fa7a" name="New EntryLink" hidden="false" targetId="a172-78de-aaa6-2201" type="selectionEntry">
+    <entryLink id="a2de-83bc-ae98-fa7a" name="Wall of Martyrs Firestorm Redoubt" hidden="false" targetId="a172-78de-aaa6-2201" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2175,7 +2151,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b0cb-6dd8-c38b-0f31" name="New EntryLink" hidden="false" targetId="e0b3-77ca-af76-bd8b" type="selectionEntry">
+    <entryLink id="b0cb-6dd8-c38b-0f31" name="Sanctum Imperialis" hidden="false" targetId="e0b3-77ca-af76-bd8b" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2191,7 +2167,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bd15-f510-4dbc-94ce" name="New EntryLink" hidden="false" targetId="595a-908e-96a1-f121" type="selectionEntry">
+    <entryLink id="bd15-f510-4dbc-94ce" name="Shrine of the Aquila" hidden="false" targetId="595a-908e-96a1-f121" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2223,7 +2199,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2548-814f-c878-0760" name="New EntryLink" hidden="false" targetId="1a59-dd0f-a7f2-32be" type="selectionEntry">
+    <entryLink id="2548-814f-c878-0760" name="Promethium Relay Pipes" hidden="false" targetId="1a59-dd0f-a7f2-32be" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2504,6 +2480,54 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="9b8b-dce5-3add-731b" hidden="false" targetId="54726f6f707323232344415441232323" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0dcd-a57d-b490-f25c" name="Sub-orbital Strike Wing" hidden="false" targetId="d9f4-58ee-4510-8f76" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="068b-ce3a-5947-6531" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b63b-f844-2830-5584" name="The Engine of Destruction" hidden="false" targetId="be21-2ff1-4817-ebfc" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3a95-b825-a37b-17ca" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b664-112b-7ed8-5492" name="Sub-orbital Strike Wing" hidden="false" targetId="d9f4-58ee-4510-8f76" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1d1d-791f-e4aa-29e1" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5819,7 +5843,9 @@ D3     Mutation
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9cb7-2430-ede6-2e65" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -5838,7 +5864,9 @@ D3     Mutation
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -8891,7 +8919,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="db38-162d-0f9f-f67d" hidden="false" targetId="d583-5c99-5bf1-0865" type="rule">
+                    <infoLink id="db38-162d-0f9f-f67d" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -9137,7 +9165,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
-                    <infoLink id="059d-d280-0282-bc5f" hidden="false" targetId="d583-5c99-5bf1-0865" type="rule">
+                    <infoLink id="059d-d280-0282-bc5f" name="Duelist&apos;s Edge" hidden="false" targetId="1a79-befa-05cf-ab0d" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -10905,7 +10933,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="37de-de5d-000c-e13c" name="Support Squad" hidden="false" targetId="6b07-5fa5-6a1d-b243" type="rule">
+        <infoLink id="37de-de5d-000c-e13c" name="Support Squad" hidden="false" targetId="2c16-3b25-a714-a656" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12360,7 +12388,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="6c5a-5772-a5f5-a450" hidden="false" targetId="6b07-5fa5-6a1d-b243" type="rule">
+        <infoLink id="6c5a-5772-a5f5-a450" name="Support Squad" hidden="false" targetId="2c16-3b25-a714-a656" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -13424,7 +13452,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="be5a-9e82-d000-77ee" name="Support Squad" hidden="false" targetId="6b07-5fa5-6a1d-b243" type="rule">
+        <infoLink id="be5a-9e82-d000-77ee" name="Support Squad" hidden="false" targetId="2c16-3b25-a714-a656" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14475,6 +14503,219 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fadd-9d7e-79a6-45d9" name="War Machine Squadron" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ac1c-23b4-31b0-cf9c" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c3f4-f812-d2c7-2875" name="Auxilia Stormhammer Super-heavy Assault Tank" hidden="false" targetId="0dd2-3783-8b42-8ea4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6d85-06ab-08f8-c90b" name="Auxilia Baneblade Super-heavy Battle Tank" hidden="false" targetId="556e-50e3-2fd0-d12d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4ec1-e354-087a-7d72" name="Acastus Knight Porphyrion" hidden="false" targetId="4ded-9de3-f964-33a7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c73-6376-6740-9ada" name="Cerastus Knight-Acheron" hidden="false" targetId="b4ddbe68-7095-397e-dec4-162170dbdbcd" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="040c-e7b9-ac63-c62a" name="Cerastus Knight-Castigator" hidden="false" targetId="b1cf8528-c9d0-2c2a-3f19-522e5532f273" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="88bb-983a-955a-1eea" name="Cerastus Knight-Lancer" hidden="false" targetId="ca45ca55-eae1-1a81-8afc-1330611055a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="48d4-8516-829e-6366" name="Questoris Knight Crusader" hidden="false" targetId="09ee-4370-1462-2cb5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8c1f-59af-4b9b-faea" name="Questoris Knight Errant" hidden="false" targetId="4b70feb1-a2e7-2f93-8320-1d6775bf5a59" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="da1b-0266-3f74-46ce" name="Questoris Knight Gallant" hidden="false" targetId="74b8-f485-4b58-0071" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a4a3-9a2d-2b87-6e66" name="Questoris Knight Magaera" hidden="false" targetId="fb7cd031-7573-eb28-4446-d709eb5acdbc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="021d-3ffb-4dd4-140d" name="Questoris Knight Paladin" hidden="false" targetId="02eb28bb-1883-8603-0af7-b8bf2b7b69c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4726-838b-1f81-6bcb" name="Questoris Knight Styrix" hidden="false" targetId="a5b350ff-895e-4557-70a6-d24a936919c2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2c46-acf2-e3b5-fc26" name="Questoris Knight Warden" hidden="false" targetId="f4f1-dad6-0596-ca5a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d9f4-58ee-4510-8f76" name="Sub-orbital Strike Wing" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="87b6-c469-e498-5252" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0cf4-7393-0957-c471" name="Auxilia Arvus Lighter" hidden="false" targetId="2f44-0ed6-d014-be2f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f31-a309-07f8-5463" name="Auxilia Thunderbolt Heavy Fighter" hidden="false" targetId="ba9a-493a-cf26-21c9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="be21-2ff1-4817-ebfc" name="The Engine of Destruction" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc92-471f-9c64-5774" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bf39-bb17-dd70-b358" name="Warlord-Sinister Pattern Battle Psi-Titan" hidden="false" targetId="fb92-d215-2011-f911" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8422-428c-7e5d-3fed" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="eec3-f017-f16f-1890" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="443d-e7be-852c-6d7c" name="Legio Titanicus Reaver Battle Titan" hidden="false" targetId="1fa3-1f86-94a6-bf48" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="94ab-9cc7-4354-20aa" name="Legio Titanicus Warhound Scout Titan" hidden="false" targetId="b894-adfc-6d3d-fde4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="abb2-777e-03bb-6543" name="Legio Titanicus Warlord Battle Titan" hidden="false" targetId="ab80-0fef-3e93-8e64" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4be5-eee6-ab84-8558" name="May exchange heavy bolter for:" hidden="false" collective="false" defaultSelectionEntryId="eaef-cbfe-83a6-a885">
@@ -15411,13 +15652,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <modifiers/>
       <description>Unit gains Stubborn.  Any morale check failed on double 6&apos;s causes the unit to be removed.</description>
     </rule>
-    <rule id="d583-5c99-5bf1-0865" name="Duellist&apos;s Edge" book="HH5: Tempest" page="180" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When fighting in a challenge, user gains +1 Initiative.</description>
-    </rule>
     <rule id="138b-03b0-8cbc-0410" name="Provenance" book="HH5: Tempest" page="188" hidden="false">
       <profiles/>
       <rules/>
@@ -15431,13 +15665,6 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       <infoLinks/>
       <modifiers/>
       <description>May never be the Warlord and may not be used to fulfil a compulsory HQ choice.</description>
-    </rule>
-    <rule id="6b07-5fa5-6a1d-b243" name="Support Squad" book="HH5: Tempest" page="183" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A squad with this special rule may not be chosen as a compulsory choice for the army as part of the Force Organization chart.</description>
     </rule>
     <rule id="ef5f-9bb7-8cf1-0ec1" name="Warmaster&apos;s Due" hidden="false">
       <profiles/>
