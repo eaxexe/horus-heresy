@@ -1601,22 +1601,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="311b-7593-7810-5768" name="Auxilia Baneblade Super-heavy Battle Tank" hidden="false" targetId="556e-50e3-2fd0-d12d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="311b-7593-7810-5768-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="cf71-2ecd-9e7b-7127" name="Auxilia Heavy Ordnance Battery" hidden="false" targetId="3119-6513-bb98-1a37" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -1657,22 +1641,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="6ba7-d9d9-6fc1-b9cc-456c6974657323232344415441232323" hidden="false" targetId="456c6974657323232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5d41-f9b4-a1c0-253a" name="Auxilia Stormhammer Super-heavy Assault Tank" hidden="false" targetId="0dd2-3783-8b42-8ea4" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5d41-f9b4-a1c0-253a-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1935,54 +1903,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="e381-4952-92d7-7075-54726f6f707323232344415441232323" hidden="false" targetId="54726f6f707323232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9ce8-35cc-0795-6b80" name="New EntryLink" hidden="false" targetId="b973-7d7d-754e-b022" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="9ce8-35cc-0795-6b80-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="592c-4d6d-7759-1b2a" name="Wall of Martyrs Defence Strongpoint" hidden="false" targetId="053a-fd01-be65-238e" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="592c-4d6d-7759-1b2a-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="5cfe-c226-cd4f-29ff" name="Aquila Strongpoint" hidden="false" targetId="16d6-25c4-af92-4329" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5cfe-c226-cd4f-29ff-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2327,7 +2247,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="23a1-c40f-a22e-40d3" name="New EntryLink" hidden="false" targetId="06e2-2420-ffc8-13b8" type="selectionEntry">
+    <entryLink id="23a1-c40f-a22e-40d3" name="Haemotrope Reactors" hidden="false" targetId="06e2-2420-ffc8-13b8" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2335,22 +2255,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="23a1-c40f-a22e-40d3-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6b24-4b12-6c68-9954" name="New EntryLink" hidden="false" targetId="33f8-e6da-89a3-01d5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="6b24-4b12-6c68-9954-1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2520,14 +2424,30 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b664-112b-7ed8-5492" name="Sub-orbital Strike Wing" hidden="false" targetId="d9f4-58ee-4510-8f76" type="selectionEntry">
+    <entryLink id="f28c-fdf1-ef8d-f7a3" name="Mighty Fortification" hidden="false" targetId="de39-bf7e-5ff3-27f5" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="1d1d-791f-e4aa-29e1" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+        <categoryLink id="dafb-cf67-04da-1dc6" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a035-304f-73c1-3d3c" name="War Machine Squadron" hidden="false" targetId="fadd-9d7e-79a6-45d9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2e1e-6688-7d10-cbaa" name="New CategoryLink" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14620,7 +14540,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d9f4-58ee-4510-8f76" name="Sub-orbital Strike Wing" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -14651,7 +14573,9 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be21-2ff1-4817-ebfc" name="The Engine of Destruction" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -14712,6 +14636,87 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
           <modifiers/>
           <constraints/>
           <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de39-bf7e-5ff3-27f5" name="Mighty Fortification" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7d84-c020-3c3f-1276" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7035-c253-d2ce-23e3" name="Firestorm Nexus" hidden="false" targetId="33f8-e6da-89a3-01d5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="63cf-e669-89a9-9fb7" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3865-a818-9587-c8f4" name="Wall of Martyrs Defence Strongpoint" hidden="false" targetId="053a-fd01-be65-238e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="5595-9617-ffbc-da09" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="b680-ed4b-b8ee-b6bd" name="Grand Redoubt" hidden="false" targetId="b973-7d7d-754e-b022" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="1c37-d21f-f974-d0cc" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="71d3-69e8-92a5-8bfa" name="Aquila Strongpoint" hidden="false" targetId="16d6-25c4-af92-4329" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="00b4-3440-5f28-deda" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
         </entryLink>
       </entryLinks>
       <costs/>
