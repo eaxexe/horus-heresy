@@ -97,7 +97,7 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="d499-480b-8d0b-9018" name="Infanry Local" hidden="false">
+    <categoryEntry id="d499-480b-8d0b-9018" name="Infantry Local" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -804,7 +804,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="98db-b4ba-fbcd-3239" name="The Age of Darkness" hidden="false">
+    <forceEntry id="98db-b4ba-fbcd-3239" name="Standard - Crusade" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1184,7 +1184,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="d1ef-61e1-3d67-5a19" name="Onslaught" hidden="false">
+    <forceEntry id="d1ef-61e1-3d67-5a19" name="Optional - Onslaught" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1259,7 +1259,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="3a6f-6d67-a8b2-e911" name="Castellan" hidden="false">
+    <forceEntry id="3a6f-6d67-a8b2-e911" name="Optional - Castellan" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1343,7 +1343,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="f715-cdf4-0c5e-213a" name="Leviathan" hidden="false">
+    <forceEntry id="f715-cdf4-0c5e-213a" name="Optional - Leviathan" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
