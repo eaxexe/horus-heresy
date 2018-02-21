@@ -1927,7 +1927,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1c99-5c64-d19a-d792" name="Wall of Martyrs Vengeance Weapon Battery" hidden="false" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
+    <entryLink id="1c99-5c64-d19a-d792" name="Vengeance Weapon Battery" hidden="false" targetId="04bf-6c22-19fb-4e46" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1959,22 +1959,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="297a-4f14-86fa-4375" name="New EntryLink" hidden="false" targetId="bbd4-5f41-35d1-6c5f" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="297a-4f14-86fa-4375-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="2ad1-c8f0-019d-4ab9" name="New EntryLink" hidden="false" targetId="df05-8179-624e-f8b2" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -1983,54 +1967,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="2ad1-c8f0-019d-4ab9-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="a172-8a1b-6d4f-b020" name="Wall of Martyrs Imperial Defence Network" hidden="false" targetId="0d50-24ac-a53e-5db7" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="a172-8a1b-6d4f-b020-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="71ea-8ba2-dde4-6f78" name="Skyshield Landing Pad" hidden="false" targetId="5cdd-edbb-07c3-0ba5" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="71ea-8ba2-dde4-6f78-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="bb99-d064-8686-64d2" name="New EntryLink" hidden="false" targetId="796a-21c2-7281-17a8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="bb99-d064-8686-64d2-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2119,38 +2055,6 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2548-814f-c878-0760" name="Promethium Relay Pipes" hidden="false" targetId="1a59-dd0f-a7f2-32be" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="2548-814f-c878-0760-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="6950-b9c9-a112-597a" name="New EntryLink" hidden="false" targetId="c05d-2231-2481-4037" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="6950-b9c9-a112-597a-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="e6ba-816a-1c46-a20f" name="Manufactorum" hidden="false" targetId="6140-dc64-5896-957f" type="selectionEntry">
       <profiles/>
       <rules/>
@@ -2167,7 +2071,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="6d3b-c9f7-a9a7-329d" name="New EntryLink" hidden="false" targetId="e40b-468f-f1d7-d05d" type="selectionEntry">
+    <entryLink id="6d3b-c9f7-a9a7-329d" name="Imperial Castelum Stronghold" hidden="false" targetId="e40b-468f-f1d7-d05d" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2175,38 +2079,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="6d3b-c9f7-a9a7-329d-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="42ea-f785-b1b5-ad68" name="New EntryLink" hidden="false" targetId="0fe6-096b-23ae-1134" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="42ea-f785-b1b5-ad68-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="739c-8464-bbe8-0de3" name="New EntryLink" hidden="false" targetId="8300-7ced-aafd-2a27" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="739c-8464-bbe8-0de3-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2239,38 +2111,6 @@
       <constraints/>
       <categoryLinks>
         <categoryLink id="f936-0463-f665-c2b5-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="23a1-c40f-a22e-40d3" name="Haemotrope Reactors" hidden="false" targetId="06e2-2420-ffc8-13b8" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="23a1-c40f-a22e-40d3-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="bfae-804e-a3ab-321d" name="Aquila Strongpoint" hidden="false" targetId="9f5b-eccc-689a-2948" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="bfae-804e-a3ab-321d-466f7274696669636174696f6e23232344415441232323" hidden="false" targetId="466f7274696669636174696f6e23232344415441232323" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
