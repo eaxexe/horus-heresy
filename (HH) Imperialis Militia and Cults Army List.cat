@@ -6772,7 +6772,7 @@ D3     Mutation
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="13"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="12"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="9"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Super-heavy)"/>
           </characteristics>
         </profile>
         <profile id="b608-c511-8042-af62" name="Dual Battlecannon" book="HH: CIAL" page="95" hidden="false" profileTypeId="576561706f6e23232344415441232323">
@@ -6917,7 +6917,7 @@ D3     Mutation
           <constraints/>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="52cd-6c8f-7eda-ca51" name="Targeters (BS 4)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="52cd-6c8f-7eda-ca51" name="Targeters (+1 BS)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -14887,7 +14887,7 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
             <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="13"/>
             <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="12"/>
             <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="9"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Super-heavy"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Super-heavy)"/>
           </characteristics>
         </profile>
         <profile id="47e6-e640-9c88-9457" name="Volcano Cannon" book="HH: CIAL" page="54" hidden="false" profileTypeId="576561706f6e23232344415441232323">
@@ -15106,6 +15106,228 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="455.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3cf-9e42-3d93-dbbd" name="Auxilia Stormsword Super-heavy Tank" book="HH: CIAL" page="55" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1b50-ad74-6c94-8bca" name="Stormsword" book="HH: CIAL" page="55" hidden="false" profileTypeId="56656869636c6523232344415441232323">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="3"/>
+            <characteristic name="Front" characteristicTypeId="46726f6e7423232344415441232323" value="14"/>
+            <characteristic name="Side" characteristicTypeId="5369646523232344415441232323" value="13"/>
+            <characteristic name="Rear" characteristicTypeId="5265617223232344415441232323" value="12"/>
+            <characteristic name="HP" characteristicTypeId="485023232344415441232323" value="9"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Vehicle (Super-heavy)"/>
+          </characteristics>
+        </profile>
+        <profile id="7d1b-dfc6-a54b-4490" name="Stormsword Siege Cannon" book="HH: CIAL" page="55" hidden="false" profileTypeId="576561706f6e23232344415441232323">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="36&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="10"/>
+            <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="1"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Primary Weapon 1, Apocalyptic Blast, Ignores Cover"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3a78-7bc0-f6c7-a685" name="Searchlight" hidden="false" targetId="9bb4-3833-5343-0dd9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="91c1-3b37-d3c1-d21f" name="Smoke Launchers" hidden="false" targetId="6875-ee73-2a85-6a97" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2038-bb83-68cb-9f40" hidden="false" targetId="1bcc0dc0-daee-dd60-6d6b-8510ffb8202f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fb29-c76a-278c-bc3d" name="May be upgraded to:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ff73-d806-6c36-f0ce" name="Super-heavy Command Tank" hidden="false" targetId="c4ea-9fbd-c81d-bb00" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fad1-5993-fa3a-c4b5" name="May add up to two:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c91e-2ad0-6cce-f6ce" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d876-2920-997a-0b13" name="Side sponson with one Lascannon and one twin-linked Heavy bolter" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e7a7-3983-8a03-8e68" name="Heavy Bolter" hidden="false" targetId="271e-6286-86cc-06dd" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="2680-14fe-7429-83d1" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0786-eea6-c66a-aa4d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0635-4867-1201-9764" name="May take any of the following:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="64a8-a416-847c-509b" name="Hunter-killer Missile" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bbc7-8ffc-a32b-52e8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f62d-9109-e570-28d2" name="Armoured Ceramite" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2233-b192-8eae-115e" name="Armoured Ceramite" hidden="false" targetId="874d-45cf-6007-a1de" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a90-e0ba-56d6-3e84" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5bba-9876-c286-a253" name="May replace side-sponson Lascannons with:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="4b43-a4f8-729c-6359" name="Targeters (+1 BS)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="e4d7-12db-b1a1-46f8" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d876-2920-997a-0b13" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e4d7-12db-b1a1-46f8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b242-0ffb-da27-9331" name="May take one of the following pintle-mounted weapons:" hidden="false" targetId="db6f-424b-d26e-c556" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="485.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
