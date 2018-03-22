@@ -15577,6 +15577,357 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <cost name="pts" costTypeId="points" value="465.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3c4a-39fe-953a-41b5" name="Thunderbolt Heavy Fighter" book="Crusade Imperialus" page="43" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="2a6a-ea17-6bc8-7eee" name="AuxillaThunderbolt Heavy Fighter" book="Crusade Imperialus" page="43" hidden="false" profileTypeId="3a08-ea03-a598-8615" profileTypeName="Flyer">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="BS" characteristicTypeId="9878-e3f6-b7b4-7225" value="4"/>
+            <characteristic name="Front" characteristicTypeId="3a4e-bc1d-4a12-7176" value="11"/>
+            <characteristic name="Side" characteristicTypeId="d12e-7bdb-191c-4849" value="11"/>
+            <characteristic name="Rear" characteristicTypeId="a4cb-791a-6a75-4e4a" value="10"/>
+            <characteristic name="HP" characteristicTypeId="93e6-d4b1-28a8-944b" value="3"/>
+            <characteristic name="Type" characteristicTypeId="eb65-838c-8eaa-8b5d" value="Vehicle (Flyer)"/>
+            <characteristic name="Combat Role" characteristicTypeId="d477-c087-173f-9f1c"/>
+            <characteristic name="Pursuit" characteristicTypeId="e04d-332e-8b52-0071"/>
+            <characteristic name="Agility" characteristicTypeId="ae34-f5c0-19af-4883"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="53d9-8060-9475-a16d" name="Combat Interdiction" book="Simulacra Repair" page="43" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If one or more enemy Flyers or Skimmers are already present on the table, failed Reserves rolls for this model must be re-rolled.</description>
+        </rule>
+        <rule id="20e7-972b-7b12-2d32" name="Simulacra Repair" book="Crusade Imperialus" page="43" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When a vehicle with this roll suffers a glancing hit, roll a D6. On a result of 6, the damage is ignored.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3431-c13f-6a11-314c" name="Supersonic" hidden="false" targetId="2e96-21ae-353e-8742" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e5d-41cb-bee6-7828" name="Deep Strike" hidden="false" targetId="d219-2314-4834-c054" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b1cc-184c-d872-3f63" name="Lascannon" hidden="false" targetId="1cce-972c-022a-2590" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Twin-linked Lascannon">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="22a7-fb87-0285-0f5c" name="Armoured Cockpit" hidden="false" targetId="ae6a-c619-bf7c-1caf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b3d5-aaf4-275a-cd31" name="Chaff/Flare Launchers" hidden="false" targetId="3448-7621-7c68-7eb9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd2c-388f-87d5-d345" name="Autocannon" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Two twin-linked autocannons">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="85ab-04cb-84e6-37aa" name="Two Twin-Linked Auto Cannons" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d8ac-771e-7e6a-0bfd" hidden="false" targetId="d55f-eed0-800f-5789" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3ac4-fc49-4d48-5bbd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02d8-51a5-cb0d-5884" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ec0c-cec3-66e6-c280" name="May be equipped with any of the following:" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="d1c3-6a6b-0f51-4e0f" name="Flare Shield" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9930-7d35-e1ab-dd6b" hidden="false" targetId="cb4a-644f-bd8d-7d97" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7535-1d70-d7a8-85d5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ada-0984-7445-5315" name="Ground-tracking Auguries" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9459-c94d-7b4e-8bfb" name="Strafing Run" hidden="false" targetId="7911-b951-c819-2f4f" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="135d-ce67-6c76-881d" name="Ground Tracking Auguries" hidden="false" targetId="1aac-b51d-3670-a939" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="b5b5-0710-71e1-afc8" name="Battle Servitor Control" book="HH:LACAL" page="43" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a9bc-deaa-764f-2aaa" name="Battle Servitor Control" hidden="false" targetId="8bcc-8271-df74-9590" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f355-3eaf-2eb1-ca23" name="Tank Hunters" hidden="false" targetId="5d88-bcf6-e410-6e01" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1282-84eb-48e0-0e7f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b9a4-41af-3ec5-d86e" name="May exchange its four Kinetic Piercer missiles for:" hidden="false" collective="false" defaultSelectionEntryId="eb16-1d66-b832-7e9f">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ecf3-d1b4-2190-b9db" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d68f-1f04-4232-899b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="46ac-7d70-c1eb-8d76" name="Four Sunfury Heavy Missiles" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7f32-86e3-1e6f-af37" name=" Sunfury Heavy Missile" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="36"/>
+                    <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
+                    <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="3"/>
+                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Blind, Gets Hot, One Use, Large Blast "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2896-662e-4ae0-0c59" name="Gets Hot" hidden="false" targetId="f4fd-d519-4769-5510" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="9796-ae5e-83e5-81dc" name="Blind" hidden="false" targetId="7dae-4d12-baba-e529" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6ea4-aa95-0770-762c" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="541f-e423-16db-9280" name="Four Hellstrike Missiles" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="48c9-f0d5-7e14-8721" name="Hellstrike Missiles" hidden="false" targetId="8d1e-6e6e-93c0-4885" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0a04-8afd-d22b-f4c8" name="Sunder" hidden="false" targetId="841f-9119-9f9d-5058" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="4786-c77a-f46f-319e" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eb16-1d66-b832-7e9f" name="Four Kinetic Piercer Missiles" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a60a-4c09-174c-a709" name="Kinetic Piercer Missile" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="48"/>
+                    <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="6"/>
+                    <characteristic name="AP" characteristicTypeId="415023232344415441232323" value="2"/>
+                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Heavy 1, Missile, Armourbane, Heat Seeker, One Use"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a77f-9610-b02d-daad" name="New InfoLink" hidden="false" targetId="e182-50cd-0867-9a8d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ddbb-36c0-9907-8f1d" name="Heat Seeker" hidden="false" targetId="203b-1db2-c7b2-54ab" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="7029-e0b0-473f-1cdb" name="One Use Only/One Shot Only" hidden="false" targetId="3789-00ab-3f47-eb36" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4be5-eee6-ab84-8558" name="May exchange heavy bolter for:" hidden="false" collective="false" defaultSelectionEntryId="eaef-cbfe-83a6-a885">
@@ -17019,6 +17370,24 @@ If a Weapon Destroyed result is repaired, that weapon may be fired in the follow
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323"/>
         <characteristic name="AP" characteristicTypeId="415023232344415441232323"/>
         <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+      </characteristics>
+    </profile>
+    <profile id="1aac-b51d-3670-a939" name="Ground Tracking Auguries" book="HH:LACAL" page="18" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Provides Strafing Run special rule.  "/>
+      </characteristics>
+    </profile>
+    <profile id="8bcc-8271-df74-9590" name="Battle Servitor Control" book="HH:LACAL" page="43" hidden="false" profileTypeId="57617267656172204974656d23232344415441232323">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="4465736372697074696f6e23232344415441232323" value="Provides Tank Hunters special rule.  "/>
       </characteristics>
     </profile>
   </sharedProfiles>
